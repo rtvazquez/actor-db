@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+
+# VS Code
+.vscode/
+
+# SQLite temporary files
+*.db-journal
+*.sqlite-journal
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
