@@ -1,0 +1,219 @@
+[
+  {
+    "title": "The Last of Us",
+    "year": 2013,
+    "franchise": "The Last of Us",
+    "studios": [
+      {"name": "Naughty Dog", "role": "Developer"},
+      {"name": "Sony Interactive Entertainment", "role": "Publisher"}
+    ]
+  },
+  {
+    "title": "The Last of Us Part II",
+    "year": 2020,
+    "franchise": "The Last of Us",
+    "studios": [
+      {"name": "Naughty Dog", "role": "Developer"},
+      {"name": "Sony Interactive Entertainment", "role": "Publisher"}
+    ],
+    "parent_work": {"title": "The Last of Us", "year": 2013},
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Persona 3",
+    "year": 2006,
+    "franchise": "Persona",
+    "studios": [
+      {"name": "Atlus", "role": "Developer"},
+      {"name": "Atlus", "role": "Publisher"}
+    ]
+  },
+  {
+    "title": "Persona 3 Reload",
+    "year": 2024,
+    "franchise": "Persona",
+    "studios": [
+      {"name": "Atlus", "role": "Developer"},
+      {"name": "Atlus", "role": "Publisher"}
+    ],
+    "parent_work": {"title": "Persona 3", "year": 2006},
+    "relationship_type": "Remake"
+  },
+  {
+    "title": "Persona 4 Golden",
+    "year": 2012,
+    "franchise": "Persona",
+    "studios": [
+      {"name": "Atlus", "role": "Developer"},
+      {"name": "Atlus", "role": "Publisher"}
+    ]
+  },
+  {
+    "title": "Persona 5 Royal",
+    "year": 2019,
+    "franchise": "Persona",
+    "studios": [
+      {"name": "Atlus", "role": "Developer"},
+      {"name": "Atlus", "role": "Publisher"}
+    ]
+  },
+  {
+    "title": "Final Fantasy XV",
+    "year": 2016,
+    "franchise": "Final Fantasy",
+    "studios": [
+      {"name": "Square Enix", "role": "Developer"},
+      {"name": "Square Enix", "role": "Publisher"}
+    ]
+  },
+  {
+    "title": "Final Fantasy VII Remake",
+    "year": 2020,
+    "franchise": "Final Fantasy",
+    "studios": [
+      {"name": "Square Enix", "role": "Developer"},
+      {"name": "Square Enix", "role": "Publisher"}
+    ]
+  },
+  {
+    "title": "Marvel's Spider-Man",
+    "year": 2018,
+    "studios": [
+      {"name": "Insomniac Games", "role": "Developer"},
+      {"name": "Sony Interactive Entertainment", "role": "Publisher"}
+    ]
+  },
+  {
+    "title": "Uncharted 4: A Thief's End",
+    "year": 2016,
+    "studios": [
+      {"name": "Naughty Dog", "role": "Developer"},
+      {"name": "Sony Interactive Entertainment", "role": "Publisher"}
+    ]
+  },
+  {
+    "title": "Assassin's Creed II",
+    "year": 2009,
+    "studios": [
+      {"name": "Ubisoft Montreal", "role": "Developer"},
+      {"name": "Ubisoft", "role": "Publisher"}
+    ]
+  },
+  {
+    "title": "Metal Gear Solid",
+    "year": 1998,
+    "studios": [
+      {"name": "Konami Computer Entertainment Japan", "role": "Developer"},
+      {"name": "Konami", "role": "Publisher"}
+    ]
+  },
+  {
+    "title": "Mass Effect",
+    "year": 2007,
+    "studios": [
+      {"name": "BioWare", "role": "Developer"},
+      {"name": "Microsoft Game Studios", "role": "Publisher"}
+    ]
+  },
+  {
+    "title": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "franchise": "Danganronpa",
+    "studios": [
+      {"name": "Spike Chunsoft", "role": "Developer"},
+      {"name": "Spike Chunsoft", "role": "Publisher"}
+    ]
+  },
+  {
+    "title": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "franchise": "Danganronpa",
+    "studios": [
+      {"name": "Spike Chunsoft", "role": "Developer"},
+      {"name": "Spike Chunsoft", "role": "Publisher"}
+    ],
+    "parent_work": {"title": "Danganronpa: Trigger Happy Havoc", "year": 2010},
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Danganronpa 3",
+    "year": 2016,
+    "franchise": "Danganronpa",
+    "studios": [
+      {"name": "Lerche", "role": "Animation Studio"}
+    ],
+    "parent_work": {"title": "Danganronpa 2: Goodbye Despair", "year": 2012},
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Bleach",
+    "year": 2004,
+    "studios": [
+      {"name": "Studio Pierrot", "role": "Animation Studio"}
+    ]
+  },
+  {
+    "title": "Naruto Shippuden",
+    "year": 2007,
+    "franchise": "Naruto",
+    "studios": [
+      {"name": "Studio Pierrot", "role": "Animation Studio"}
+    ]
+  },
+  {
+    "title": "Sword Art Online",
+    "year": 2012,
+    "studios": [
+      {"name": "A-1 Pictures", "role": "Animation Studio"}
+    ]
+  },
+  {
+    "title": "Attack on Titan",
+    "year": 2013,
+    "studios": [
+      {"name": "Wit Studio", "role": "Animation Studio"}
+    ]
+  },
+  {
+    "title": "Cowboy Bebop",
+    "year": 1998,
+    "studios": [
+      {"name": "Sunrise", "role": "Animation Studio"}
+    ]
+  },
+  {
+    "title": "Jujutsu Kaisen",
+    "year": 2020,
+    "studios": [
+      {"name": "MAPPA", "role": "Animation Studio"}
+    ]
+  },
+  {
+    "title": "Demon Slayer",
+    "year": 2019,
+    "studios": [
+      {"name": "ufotable", "role": "Animation Studio"}
+    ]
+  },
+  {
+    "title": "Mob Psycho 100",
+    "year": 2016,
+    "studios": [
+      {"name": "Bones", "role": "Animation Studio"}
+    ]
+  },
+  {
+    "title": "Death Note",
+    "year": 2006,
+    "studios": [
+      {"name": "Madhouse", "role": "Animation Studio"}
+    ]
+  },
+  {
+    "title": "Steins;Gate",
+    "year": 2011,
+    "studios": [
+      {"name": "White Fox", "role": "Animation Studio"}
+    ]
+  }
+]

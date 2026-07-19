@@ -1,14 +1,8 @@
-import sqlite3
 import sys
 from pathlib import Path
 
-DB_PATH = Path("db/voice_actors.db")
-
-
-def connect():
-    conn = sqlite3.connect(DB_PATH)
-    conn.execute("PRAGMA foreign_keys = ON;")
-    return conn
+sys.path.insert(0, str(Path(__file__).parent))
+from utils import connect
 
 
 # -------------------------
@@ -22,14 +16,14 @@ def query_actor(conn, name):
             a.name,
             c.canonical_name,
             w.title,
-            r.role_type,
+            p.role_type,
             l.name
-        FROM Roles r
-        JOIN Actors a ON r.actor_id = a.actor_id
-        JOIN CharacterAppearances ca ON r.appearance_id = ca.appearance_id
+        FROM Performances p
+        JOIN Actors a ON p.actor_id = a.actor_id
+        JOIN CharacterAppearances ca ON p.appearance_id = ca.appearance_id
         JOIN Characters c ON ca.character_id = c.character_id
         JOIN Works w ON ca.work_id = w.work_id
-        JOIN Languages l ON r.language_id = l.language_id
+        LEFT JOIN Languages l ON p.language_id = l.language_id
         WHERE a.name = ?
         ORDER BY w.title;
     """, (name,)).fetchall()
@@ -42,7 +36,8 @@ def query_actor(conn, name):
         return
 
     for actor, character, work, role_type, lang in rows:
-        print(f"{actor} → {character} in {work} [{lang}] ({role_type})")
+        lang_str = lang or "—"
+        print(f"{actor} → {character} in {work} [{lang_str}] ({role_type})")
 
 
 # -------------------------
@@ -56,14 +51,14 @@ def query_work(conn, title):
             w.title,
             c.canonical_name,
             a.name,
-            r.role_type,
+            p.role_type,
             l.name
-        FROM Roles r
-        JOIN Actors a ON r.actor_id = a.actor_id
-        JOIN CharacterAppearances ca ON r.appearance_id = ca.appearance_id
+        FROM Performances p
+        JOIN Actors a ON p.actor_id = a.actor_id
+        JOIN CharacterAppearances ca ON p.appearance_id = ca.appearance_id
         JOIN Characters c ON ca.character_id = c.character_id
         JOIN Works w ON ca.work_id = w.work_id
-        JOIN Languages l ON r.language_id = l.language_id
+        LEFT JOIN Languages l ON p.language_id = l.language_id
         WHERE w.title = ?
         ORDER BY c.canonical_name;
     """, (title,)).fetchall()
@@ -76,7 +71,8 @@ def query_work(conn, title):
         return
 
     for work, character, actor, role_type, lang in rows:
-        print(f"{character} → {actor} [{lang}] ({role_type})")
+        lang_str = lang or "—"
+        print(f"{character} → {actor} [{lang_str}] ({role_type})")
 
 
 # -------------------------
@@ -90,14 +86,14 @@ def query_character(conn, name):
             c.canonical_name,
             w.title,
             a.name,
-            r.role_type,
+            p.role_type,
             l.name
-        FROM Roles r
-        JOIN Actors a ON r.actor_id = a.actor_id
-        JOIN CharacterAppearances ca ON r.appearance_id = ca.appearance_id
+        FROM Performances p
+        JOIN Actors a ON p.actor_id = a.actor_id
+        JOIN CharacterAppearances ca ON p.appearance_id = ca.appearance_id
         JOIN Characters c ON ca.character_id = c.character_id
         JOIN Works w ON ca.work_id = w.work_id
-        JOIN Languages l ON r.language_id = l.language_id
+        LEFT JOIN Languages l ON p.language_id = l.language_id
         WHERE c.canonical_name = ?
         ORDER BY w.title;
     """, (name,)).fetchall()
@@ -110,7 +106,107 @@ def query_character(conn, name):
         return
 
     for character, work, actor, role_type, lang in rows:
-        print(f"{character} → {actor} in {work} [{lang}] ({role_type})")
+        lang_str = lang or "—"
+        print(f"{character} → {actor} in {work} [{lang_str}] ({role_type})")
+
+
+# -------------------------
+# QUERY: STUDIO
+# -------------------------
+def query_studio(conn, name):
+    cur = conn.cursor()
+
+    rows = cur.execute("""
+        SELECT
+            s.name,
+            ws.studio_role,
+            w.title,
+            w.release_year,
+            w.media_type
+        FROM WorkStudios ws
+        JOIN Studios s ON ws.studio_id = s.studio_id
+        JOIN Works w ON ws.work_id = w.work_id
+        WHERE s.name = ?
+        ORDER BY w.release_year;
+    """, (name,)).fetchall()
+
+    print(f"\n🏢 Studio: {name}")
+    print("-" * 60)
+
+    if not rows:
+        print("No results found.")
+        return
+
+    for studio, studio_role, title, year, media_type in rows:
+        print(f"{title} ({year}) [{media_type}] — {studio_role}")
+
+
+# -------------------------
+# QUERY: FRANCHISE
+# -------------------------
+def query_franchise(conn, name):
+    cur = conn.cursor()
+
+    rows = cur.execute("""
+        SELECT
+            w.title,
+            w.release_year,
+            w.media_type,
+            pw.title,
+            w.work_relationship_type
+        FROM Works w
+        JOIN Franchises f ON w.franchise_id = f.franchise_id
+        LEFT JOIN Works pw ON w.parent_work_id = pw.work_id
+        WHERE f.name = ?
+        ORDER BY w.release_year;
+    """, (name,)).fetchall()
+
+    print(f"\n🌐 Franchise: {name}")
+    print("-" * 60)
+
+    if not rows:
+        print("No results found.")
+        return
+
+    for title, year, media_type, parent_title, rel_type in rows:
+        if parent_title:
+            print(f"{title} ({year}) [{media_type}] — {rel_type} of {parent_title}")
+        else:
+            print(f"{title} ({year}) [{media_type}]")
+
+
+# -------------------------
+# QUERY: CO-STARS
+# -------------------------
+def query_costars(conn, name):
+    """Other actors who share a work with the given actor."""
+    cur = conn.cursor()
+
+    rows = cur.execute("""
+        SELECT DISTINCT
+            a2.name,
+            w.title,
+            w.release_year
+        FROM Performances p1
+        JOIN Actors a1 ON p1.actor_id = a1.actor_id
+        JOIN CharacterAppearances ca1 ON p1.appearance_id = ca1.appearance_id
+        JOIN Works w ON ca1.work_id = w.work_id
+        JOIN CharacterAppearances ca2 ON ca2.work_id = w.work_id
+        JOIN Performances p2 ON p2.appearance_id = ca2.appearance_id
+        JOIN Actors a2 ON p2.actor_id = a2.actor_id
+        WHERE a1.name = ? AND a2.actor_id != a1.actor_id
+        ORDER BY w.release_year, a2.name;
+    """, (name,)).fetchall()
+
+    print(f"\n🤝 Co-stars of: {name}")
+    print("-" * 60)
+
+    if not rows:
+        print("No results found.")
+        return
+
+    for costar, work, year in rows:
+        print(f"{costar} — {work} ({year})")
 
 
 # -------------------------
@@ -122,6 +218,9 @@ def main():
         print("  python query.py actor <name>")
         print("  python query.py work <title>")
         print("  python query.py character <name>")
+        print("  python query.py studio <name>")
+        print("  python query.py franchise <name>")
+        print("  python query.py costars <actor name>")
         return
 
     mode = sys.argv[1]
@@ -135,8 +234,14 @@ def main():
         query_work(conn, value)
     elif mode == "character":
         query_character(conn, value)
+    elif mode == "studio":
+        query_studio(conn, value)
+    elif mode == "franchise":
+        query_franchise(conn, value)
+    elif mode == "costars":
+        query_costars(conn, value)
     else:
-        print("Unknown mode. Use: actor | work | character")
+        print("Unknown mode. Use: actor | work | character | studio | franchise | costars")
 
     conn.close()
 

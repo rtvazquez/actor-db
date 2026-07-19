@@ -1,0 +1,425 @@
+[
+  {
+    "actor": "Troy Baker",
+    "birth_year": 1976,
+    "work": "The Last of Us Part II",
+    "year": 2020,
+    "character": "Joel",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Ashley Johnson",
+    "birth_year": 1983,
+    "work": "The Last of Us Part II",
+    "year": 2020,
+    "character": "Ellie",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Laura Bailey",
+    "birth_year": 1981,
+    "work": "The Last of Us Part II",
+    "year": 2020,
+    "character": "Abby",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Troy Baker",
+    "birth_year": 1976,
+    "work": "The Last of Us",
+    "year": 2013,
+    "character": "Joel",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Ashley Johnson",
+    "birth_year": 1983,
+    "work": "The Last of Us",
+    "year": 2013,
+    "character": "Ellie",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Johnny Yong Bosch",
+    "birth_year": 1976,
+    "work": "Persona 4 Golden",
+    "year": 2012,
+    "character": "Yu Narukami",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Yuri Lowenthal",
+    "birth_year": 1971,
+    "work": "Persona 4 Golden",
+    "year": 2012,
+    "character": "Yosuke Hanamura",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Troy Baker",
+    "birth_year": 1976,
+    "work": "Persona 4 Golden",
+    "year": 2012,
+    "character": "Kanji Tatsumi",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Xander Mobus",
+    "birth_year": null,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Joker",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Erika Harlacher",
+    "birth_year": 1986,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Ann Takamaki",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Max Mittelman",
+    "birth_year": 1990,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Ryuji Sakamoto",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Ray Chase",
+    "birth_year": 1987,
+    "work": "Final Fantasy XV",
+    "year": 2016,
+    "character": "Noctis Lucis Caelum",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Robbie Daymond",
+    "birth_year": 1982,
+    "work": "Final Fantasy XV",
+    "year": 2016,
+    "character": "Prompto Argentum",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Erica Lindbeck",
+    "birth_year": 1992,
+    "work": "Final Fantasy VII Remake",
+    "year": 2020,
+    "character": "Jessie Rasberry",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Max Mittelman",
+    "birth_year": 1990,
+    "work": "Final Fantasy VII Remake",
+    "year": 2020,
+    "character": "Red XIII",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Johnny Yong Bosch",
+    "birth_year": 1976,
+    "work": "Bleach",
+    "year": 2004,
+    "character": "Ichigo Kurosaki",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Erika Harlacher",
+    "birth_year": 1986,
+    "work": "Sword Art Online",
+    "year": 2012,
+    "character": "Elizabeth Liones",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Bryce Papenbrook",
+    "birth_year": 1986,
+    "work": "Attack on Titan",
+    "year": 2013,
+    "character": "Eren Yeager",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Yuri Lowenthal",
+    "birth_year": 1971,
+    "work": "Naruto Shippuden",
+    "year": 2007,
+    "character": "Sasuke Uchiha",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Laura Bailey",
+    "birth_year": 1981,
+    "work": "Marvel's Spider-Man",
+    "year": 2018,
+    "character": "Mary Jane Watson",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Nolan North",
+    "birth_year": 1970,
+    "work": "Uncharted 4: A Thief's End",
+    "year": 2016,
+    "character": "Nathan Drake",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Nolan North",
+    "birth_year": 1970,
+    "work": "Assassin's Creed II",
+    "year": 2009,
+    "character": "Desmond Miles",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Steve Blum",
+    "birth_year": 1960,
+    "work": "Cowboy Bebop",
+    "year": 1998,
+    "character": "Spike Spiegel",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "David Hayter",
+    "birth_year": 1969,
+    "work": "Metal Gear Solid",
+    "year": 1998,
+    "character": "Solid Snake",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Jennifer Hale",
+    "birth_year": 1972,
+    "work": "Mass Effect",
+    "year": 2007,
+    "character": "Commander Shepard",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Kaiji Tang",
+    "birth_year": 1984,
+    "work": "Jujutsu Kaisen",
+    "year": 2020,
+    "character": "Satoru Gojo",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Adam McArthur",
+    "birth_year": 1988,
+    "work": "Jujutsu Kaisen",
+    "year": 2020,
+    "character": "Yuji Itadori",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Robbie Daymond",
+    "birth_year": 1982,
+    "work": "Jujutsu Kaisen",
+    "year": 2020,
+    "character": "Megumi Fushiguro",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Bryce Papenbrook",
+    "birth_year": 1986,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Makoto Naegi",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Erin Fitzgerald",
+    "birth_year": 1972,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Junko Enoshima",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Bryce Papenbrook",
+    "birth_year": 1986,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Nagito Komaeda",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Erica Lindbeck",
+    "birth_year": 1992,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Futaba Sakura",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Matthew Mercer",
+    "birth_year": 1982,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Yusuke Kitagawa",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Cherami Leigh",
+    "birth_year": 1988,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Makoto Niijima",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Yuri Lowenthal",
+    "birth_year": 1971,
+    "work": "Persona 3",
+    "year": 2006,
+    "character": "Makoto Yuki",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Aleks Le",
+    "birth_year": 1989,
+    "work": "Persona 3 Reload",
+    "year": 2024,
+    "character": "Makoto Yuki",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Zach Aguilar",
+    "birth_year": 1995,
+    "work": "Demon Slayer",
+    "year": 2019,
+    "character": "Tanjiro Kamado",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Abby Trott",
+    "birth_year": 1986,
+    "work": "Demon Slayer",
+    "year": 2019,
+    "character": "Nezuko Kamado",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Kyle McCarley",
+    "birth_year": 1985,
+    "work": "Mob Psycho 100",
+    "year": 2016,
+    "character": "Shigeo Kageyama",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Ryota Osaka",
+    "birth_year": 1986,
+    "work": "Attack on Titan",
+    "year": 2013,
+    "character": "Marco Bott",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Yuki Kaji",
+    "birth_year": 1985,
+    "work": "Attack on Titan",
+    "year": 2013,
+    "character": "Eren Yeager",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Mamoru Miyano",
+    "birth_year": 1983,
+    "work": "Death Note",
+    "year": 2006,
+    "character": "Light Yagami",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Kana Hanazawa",
+    "birth_year": 1989,
+    "work": "Steins;Gate",
+    "year": 2011,
+    "character": "Mayuri Shiina",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Hiroshi Kamiya",
+    "birth_year": 1975,
+    "work": "Attack on Titan",
+    "year": 2013,
+    "character": "Levi Ackerman",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Takahiro Sakurai",
+    "birth_year": 1974,
+    "work": "Jujutsu Kaisen",
+    "year": 2020,
+    "character": "Suguru Geto",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Koki Uchiyama",
+    "birth_year": 1990,
+    "work": "Mob Psycho 100",
+    "year": 2016,
+    "character": "Shigeo Kageyama (Shadow Clone scenes)",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Megumi Ogata",
+    "birth_year": 1965,
+    "work": "Danganronpa 3",
+    "year": 2016,
+    "character": "Nagito Komaeda",
+    "language": "Japanese",
+    "media_type": "Anime"
+  }
+]

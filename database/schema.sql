@@ -1,4 +1,3 @@
-
 PRAGMA foreign_keys = ON;
 
 -- =========================
@@ -11,16 +10,59 @@ CREATE TABLE Actors (
     birth_year INTEGER
 );
 
+CREATE TABLE Franchises (
+    franchise_id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE Studios (
+    studio_id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL UNIQUE,
+    country TEXT
+);
+
 CREATE TABLE Works (
     work_id INTEGER PRIMARY KEY,
     title TEXT NOT NULL,
     release_year INTEGER,
-    media_type TEXT,
-    franchise TEXT,
+    media_type TEXT NOT NULL
+        CHECK (media_type IN ('Video Game', 'Anime', 'TV Series', 'Movie', 'OVA', 'Other')),
+    franchise_id INTEGER,
     parent_work_id INTEGER,
-    work_relationship_type TEXT,
+    work_relationship_type TEXT
+        CHECK (work_relationship_type IS NULL OR work_relationship_type IN
+            ('Sequel', 'Prequel', 'Spin-off', 'Remake', 'Remaster', 'Side Story')),
 
-    FOREIGN KEY (parent_work_id) REFERENCES Works(work_id)
+    UNIQUE(title, release_year),
+
+    FOREIGN KEY (franchise_id)
+        REFERENCES Franchises(franchise_id)
+        ON DELETE SET NULL,
+
+    FOREIGN KEY (parent_work_id)
+        REFERENCES Works(work_id)
+        ON DELETE SET NULL
+);
+
+-- Bridge: which studio(s) worked on a work, and in what capacity.
+-- A single work can have a developer, a publisher, an animation studio,
+-- and a localization studio all at once, so this is many-to-many with a role.
+CREATE TABLE WorkStudios (
+    work_id INTEGER NOT NULL,
+    studio_id INTEGER NOT NULL,
+    studio_role TEXT NOT NULL
+        CHECK (studio_role IN
+            ('Developer', 'Publisher', 'Animation Studio', 'Localization Studio', 'Distributor', 'Production')),
+
+    PRIMARY KEY (work_id, studio_id, studio_role),
+
+    FOREIGN KEY (work_id)
+        REFERENCES Works(work_id)
+        ON DELETE CASCADE,
+
+    FOREIGN KEY (studio_id)
+        REFERENCES Studios(studio_id)
+        ON DELETE CASCADE
 );
 
 CREATE TABLE Characters (
@@ -46,7 +88,7 @@ CREATE TABLE CharacterAppearances (
 );
 
 -- =========================
--- LANGUAGES (kept in Phase 1)
+-- LANGUAGES
 -- =========================
 
 CREATE TABLE Languages (
@@ -55,17 +97,22 @@ CREATE TABLE Languages (
 );
 
 -- =========================
--- VOICE ROLES
+-- PERFORMANCES
+-- (formerly "Roles" -- renamed and generalized so the same schema can
+--  later cover live-action / motion-capture acting, not just dubbed voice work)
 -- =========================
 
-CREATE TABLE Roles (
-    role_id INTEGER PRIMARY KEY,
+CREATE TABLE Performances (
+    performance_id INTEGER PRIMARY KEY,
     appearance_id INTEGER NOT NULL,
     actor_id INTEGER NOT NULL,
-    language_id INTEGER NOT NULL,
-    role_type TEXT,
+    language_id INTEGER,
+    performance_type TEXT NOT NULL DEFAULT 'Voice'
+        CHECK (performance_type IN ('Voice', 'Live-Action', 'Motion-Capture', 'Voice+Motion-Capture')),
+    role_type TEXT
+        CHECK (role_type IS NULL OR role_type IN ('Main', 'Supporting', 'Minor', 'Cameo')),
 
-    UNIQUE(appearance_id, actor_id, language_id),
+    UNIQUE(appearance_id, actor_id, language_id, performance_type),
 
     FOREIGN KEY (appearance_id)
         REFERENCES CharacterAppearances(appearance_id)
@@ -87,13 +134,15 @@ CREATE TABLE Roles (
 CREATE INDEX idx_actor_name ON Actors(name);
 
 CREATE INDEX idx_work_title ON Works(title);
+CREATE INDEX idx_work_franchise ON Works(franchise_id);
+CREATE INDEX idx_work_parent ON Works(parent_work_id);
+
+CREATE INDEX idx_workstudios_studio ON WorkStudios(studio_id);
 
 CREATE INDEX idx_character_name ON Characters(canonical_name);
 
 CREATE INDEX idx_appearance_character ON CharacterAppearances(character_id);
-
 CREATE INDEX idx_appearance_work ON CharacterAppearances(work_id);
 
-CREATE INDEX idx_role_actor ON Roles(actor_id);
-
-CREATE INDEX idx_role_appearance ON Roles(appearance_id);
+CREATE INDEX idx_performance_actor ON Performances(actor_id);
+CREATE INDEX idx_performance_appearance ON Performances(appearance_id);

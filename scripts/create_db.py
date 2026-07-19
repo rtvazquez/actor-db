@@ -1,12 +1,16 @@
 import sqlite3
+import sys
 from pathlib import Path
 
-DB_PATH = Path("db/voice_actors.db")
-SCHEMA_PATH = Path("database/schema.sql")
+sys.path.insert(0, str(Path(__file__).parent))
+from utils import DB_PATH, SCHEMA_PATH
 
 
 def create_database():
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+    if DB_PATH.exists():
+        DB_PATH.unlink()
 
     with sqlite3.connect(DB_PATH) as conn:
         cursor = conn.cursor()
