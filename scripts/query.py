@@ -24,7 +24,7 @@ def query_actor(conn, name):
         JOIN Characters c ON ca.character_id = c.character_id
         JOIN Works w ON ca.work_id = w.work_id
         LEFT JOIN Languages l ON p.language_id = l.language_id
-        WHERE a.name = ?
+        WHERE a.name = ? COLLATE NOCASE
         ORDER BY w.title;
     """, (name,)).fetchall()
 
@@ -59,7 +59,7 @@ def query_work(conn, title):
         JOIN Characters c ON ca.character_id = c.character_id
         JOIN Works w ON ca.work_id = w.work_id
         LEFT JOIN Languages l ON p.language_id = l.language_id
-        WHERE w.title = ?
+        WHERE w.title = ? COLLATE NOCASE
         ORDER BY c.canonical_name;
     """, (title,)).fetchall()
 
@@ -94,7 +94,7 @@ def query_character(conn, name):
         JOIN Characters c ON ca.character_id = c.character_id
         JOIN Works w ON ca.work_id = w.work_id
         LEFT JOIN Languages l ON p.language_id = l.language_id
-        WHERE c.canonical_name = ?
+        WHERE c.canonical_name = ? COLLATE NOCASE
         ORDER BY w.title;
     """, (name,)).fetchall()
 
@@ -126,7 +126,7 @@ def query_studio(conn, name):
         FROM WorkStudios ws
         JOIN Studios s ON ws.studio_id = s.studio_id
         JOIN Works w ON ws.work_id = w.work_id
-        WHERE s.name = ?
+        WHERE s.name = ? COLLATE NOCASE
         ORDER BY w.release_year;
     """, (name,)).fetchall()
 
@@ -157,7 +157,7 @@ def query_franchise(conn, name):
         FROM Works w
         JOIN Franchises f ON w.franchise_id = f.franchise_id
         LEFT JOIN Works pw ON w.parent_work_id = pw.work_id
-        WHERE f.name = ?
+        WHERE f.name = ? COLLATE NOCASE
         ORDER BY w.release_year;
     """, (name,)).fetchall()
 
@@ -199,7 +199,7 @@ def query_costars(conn, name):
         JOIN Performances p2 ON p2.appearance_id = ca2.appearance_id
         JOIN Actors a2 ON p2.actor_id = a2.actor_id
         JOIN Characters c2 ON ca2.character_id = c2.character_id
-        WHERE a1.name = ? AND a2.actor_id != a1.actor_id
+        WHERE a1.name = ? COLLATE NOCASE AND a2.actor_id != a1.actor_id
         GROUP BY a2.actor_id, c2.character_id, w.work_id
         ORDER BY w.release_year, a2.name;
     """, (name,)).fetchall()

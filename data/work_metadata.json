@@ -524,5 +524,603 @@
         "role": "Publisher"
       }
     ]
+  },
+  {
+    "title": "Hunter x Hunter",
+    "year": 2011,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Hajime no Ippo",
+    "year": 2004,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Monster",
+    "year": 2004,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Hellsing Ultimate",
+    "year": 2006,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Overlord",
+    "year": 2015,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Orb: On the Movements of the Earth",
+    "year": 2024,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Parasyte -the maxim-",
+    "year": 2014,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "The Tatami Galaxy",
+    "year": 2010,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Perfect Blue",
+    "year": 1997,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Paprika",
+    "year": 2006,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Trigun",
+    "year": 1998,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "One-Punch Man",
+    "year": 2015,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Sonny Boy",
+    "year": 2021,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Redline",
+    "year": 2009,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Kill la Kill",
+    "year": 2013,
+    "studios": [
+      {
+        "name": "Studio Trigger",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Neon Genesis Evangelion",
+    "year": 1995,
+    "studios": [
+      {
+        "name": "Gainax",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Hell's Paradise",
+    "year": 2023,
+    "studios": [
+      {
+        "name": "MAPPA",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Dororo",
+    "year": 2019,
+    "studios": [
+      {
+        "name": "MAPPA",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Banana Fish",
+    "year": 2018,
+    "studios": [
+      {
+        "name": "MAPPA",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Vinland Saga",
+    "year": 2019,
+    "studios": [
+      {
+        "name": "Wit Studio",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Vinland Saga Season 2",
+    "year": 2023,
+    "studios": [
+      {
+        "name": "MAPPA",
+        "role": "Animation Studio"
+      }
+    ],
+    "parent_work": {
+      "title": "Vinland Saga",
+      "year": 2019
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Attack on Titan: The Final Season",
+    "year": 2020,
+    "studios": [
+      {
+        "name": "MAPPA",
+        "role": "Animation Studio"
+      }
+    ],
+    "parent_work": {
+      "title": "Attack on Titan",
+      "year": 2013
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Great Pretender",
+    "year": 2020,
+    "studios": [
+      {
+        "name": "Wit Studio",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Spy x Family",
+    "year": 2022,
+    "studios": [
+      {
+        "name": "Wit Studio",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Fullmetal Alchemist",
+    "year": 2003,
+    "studios": [
+      {
+        "name": "Bones",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "year": 2009,
+    "studios": [
+      {
+        "name": "Bones",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Soul Eater",
+    "year": 2008,
+    "studios": [
+      {
+        "name": "Bones",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "My Hero Academia",
+    "year": 2016,
+    "studios": [
+      {
+        "name": "Bones",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Space Dandy",
+    "year": 2014,
+    "studios": [
+      {
+        "name": "Bones",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Nausicaa of the Valley of the Wind",
+    "year": 1984,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Castle in the Sky",
+    "year": 1986,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Grave of the Fireflies",
+    "year": 1988,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Kiki's Delivery Service",
+    "year": 1989,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Princess Mononoke",
+    "year": 1997,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Howl's Moving Castle",
+    "year": 2004,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Ponyo",
+    "year": 2008,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "The Boy and the Heron",
+    "year": 2023,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "The Wind Rises",
+    "year": 2013,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Spirited Away",
+    "year": 2001,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Porco Rosso",
+    "year": 1992,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "My Neighbor Totoro",
+    "year": 1988,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Ping Pong the Animation",
+    "year": 2014,
+    "studios": [
+      {
+        "name": "Science SARU",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Devilman Crybaby",
+    "year": 2018,
+    "studios": [
+      {
+        "name": "Science SARU",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Violet Evergarden",
+    "year": 2018,
+    "media_type": "Anime",
+    "studios": [
+      {
+        "name": "Kyoto Animation",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "K-On!",
+    "year": 2009,
+    "media_type": "Anime",
+    "studios": [
+      {
+        "name": "Kyoto Animation",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Nichijou",
+    "year": 2011,
+    "media_type": "Anime",
+    "studios": [
+      {
+        "name": "Kyoto Animation",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "A Silent Voice",
+    "year": 2016,
+    "media_type": "Movie",
+    "studios": [
+      {
+        "name": "Kyoto Animation",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Invincible",
+    "year": 2021,
+    "media_type": "TV Series",
+    "studios": [
+      {
+        "name": "Skybound Entertainment",
+        "role": "Production"
+      },
+      {
+        "name": "Amazon Studios",
+        "role": "Distributor"
+      }
+    ]
+  },
+  {
+    "title": "The Spectacular Spider-Man",
+    "year": 2008,
+    "media_type": "TV Series",
+    "studios": [
+      {
+        "name": "Sony Pictures Television",
+        "role": "Production"
+      }
+    ]
+  },
+  {
+    "title": "Green Lantern: The Animated Series",
+    "year": 2011,
+    "media_type": "TV Series",
+    "studios": [
+      {
+        "name": "Warner Bros. Animation",
+        "role": "Production"
+      }
+    ]
+  },
+  {
+    "title": "Metal Gear Solid 3: Snake Eater",
+    "year": 2004,
+    "media_type": "Video Game",
+    "studios": [
+      {
+        "name": "Konami",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "title": "Voltron: Legendary Defender",
+    "year": 2016,
+    "media_type": "TV Series",
+    "studios": [
+      {
+        "name": "Studio Mir",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Superman: The Animated Series",
+    "year": 1996,
+    "media_type": "TV Series",
+    "studios": [
+      {
+        "name": "Warner Bros. Animation",
+        "role": "Production"
+      }
+    ]
+  },
+  {
+    "title": "SpongeBob SquarePants",
+    "year": 1999,
+    "media_type": "TV Series",
+    "studios": [
+      {
+        "name": "Nickelodeon Animation Studio",
+        "role": "Production"
+      }
+    ]
+  },
+  {
+    "title": "Crash Bandicoot",
+    "year": 1996,
+    "media_type": "Video Game",
+    "studios": [
+      {
+        "name": "Naughty Dog",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "title": "Portal 2",
+    "year": 2011,
+    "media_type": "Video Game",
+    "studios": [
+      {
+        "name": "Valve",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "title": "Spider-Man 2: The Video Game",
+    "year": 2004,
+    "media_type": "Video Game",
+    "studios": [
+      {
+        "name": "Treyarch",
+        "role": "Developer"
+      }
+    ]
   }
 ]

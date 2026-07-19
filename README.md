@@ -76,39 +76,98 @@ python scripts/query.py costars "Yuri Lowenthal"
 
 `database/dashboard.html` is a self-contained, offline GUI -- just open
 it in any browser (double-click it, or drag it into a browser window).
-Actors, works, characters, studios, and franchises are browsable as a
-letterboxd-style tile grid, and every cross-link is clickable in both
-directions: a studio's works, a work's cast *and* studios *and*
-franchise *and* sequel/remake links, a character's actors, an actor's
-roles -- click through any of them to jump to that entity's page. A
-sixth "Co-stars" tab reproduces `query.py costars`, and shows which
-character each side played, not just the actor names. A language
-filter (English/Japanese/...) narrows cast lists and co-star results
-to one dub at a time. Favoriting an actor (the star icon on their
-tile or detail page) is saved in your browser via `localStorage`, and
-an "Favorites only" checkbox filters the Actors tab down to just
-those. Regenerate the dashboard after any data change with
+
+Actors get two separate letterboxd-style tile grids -- **Actors (EN)**
+and **Actors (JA)** -- split by which language each actor has performed
+in, rather than one mixed list. Works, Characters, Studios, and
+Franchises are their own tile grids too, and every cross-link is
+clickable in both directions: a studio's works, a work's cast *and*
+studios *and* franchise *and* sequel/remake links, a character's
+actors, an actor's roles -- click through any of them to jump to that
+entity's page.
+
+Character and Work pages use a BTVA-style layout: cast is grouped one
+row per role, with each language's actor shown as its own clickable
+square (name + colored language tag) side by side in that row -- so an
+English and Japanese actor sharing one role read as one appearance/cast
+slot with two squares, not two separate entries. Studio pages group
+their credits under medium subheadings (Video Game, Anime, TV Series,
+...).
+
+There's no separate language filter -- language is already handled by
+having two Actors tabs, and by always showing every language's actor
+side by side on Character/Work pages. Instead the search bar has one
+**media type** filter (Video Game/Anime/TV Series/Movie/OVA/all) that
+actually removes non-matching tiles from whichever grid you're on
+(Works, Characters, Studios, Franchises, or either Actors tab), not
+just from a detail page -- e.g. picking "Anime" on the Characters tab
+drops every character who's never appeared in an anime.
+
+Each of those six grids also has a **sort** dropdown, with the choices
+tailored to what makes sense for that tab: actors sort by first name,
+last name, most roles, or fewest roles; works sort by title, oldest,
+newest, or largest cast; characters/studios/franchises sort by name or
+by count (appearances/credits/works).
+
+A **Co-stars** tab reproduces `query.py costars`, showing which
+character each side played (with a colored language tag next to each
+name), not just the actor names -- and the actor name lookup is
+case-insensitive, so "yuri lowenthal" works the same as "Yuri
+Lowenthal". Results are split into two sections: **Co-starred with
+(same dub)** -- people who shared a language track with the actor you
+searched -- and **Cast in the other language version** -- people who
+played opposite them in the *other* language's dub/sub, since an
+English and Japanese cast technically co-star too but read very
+differently. A link on that page jumps to the **Counterparts** tab,
+which is a more precise lookup: for one actor, it shows every
+character they've played and who voiced that *exact same character*
+in the other language, rather than the whole other-language cast.
+
+A **Compare** tab answers "who's been in both/all of these
+franchises or works" -- list two or more franchise names and/or work
+titles (case-insensitive) and it intersects the actor sets, showing
+which character satisfied each one, with the same language tag next to
+each actor's name.
+
+Favoriting (the star icon on a tile or detail page) works for every
+entity type -- actors, works, characters, studios, and franchises, each
+saved separately in your browser via `localStorage` -- and a
+"Favorites only" checkbox filters whichever grid you're on down to just
+those. Favoriting also cross-highlights: if you favorite a work, it's
+flagged (gold accent + star) everywhere it's referenced from another
+page, e.g. on the detail page of anyone in its cast; if you favorite an
+actor, their cast square is flagged on every work/character page they
+show up on, in Co-stars/Counterparts/Compare rows, and so on. Regenerate
+the dashboard after any data change with
 `python scripts/generate_dashboard.py`.
 
 **Search box examples:**
 
 ```
-Actors tab:      type "Troy Baker"        -> live-filters the grid as you type
-                  press Enter/Search       -> jumps straight to his page if it's an exact match
-Works tab:        "Persona 5 Royal"        -> same live-filter/jump behavior
-Characters tab:   "Joker"
-Studios tab:      "Atlus"
-Franchises tab:   "Persona"
-Co-stars tab:     "Yuri Lowenthal" + Enter -> lists everyone he's shared a work with,
-                                              which character each of you played, and the work
+Actors (EN/JA) tabs: type "troy baker"     -> live-filters the grid as you type (case doesn't matter)
+                     press Enter/Search    -> jumps straight to his page on an exact match
+Works tab:           "Persona 5 Royal"     -> same live-filter/jump behavior; media filter narrows further
+Characters tab:      "Joker"
+Studios tab:         "Atlus"
+Franchises tab:      "Persona"
+Co-stars tab:        "yuri lowenthal" + Enter -> lists co-stars split into "same dub" and
+                                                  "other language version", with character + work
+Counterparts tab:    "yui ishikawa" + Enter -> for each role, shows who voiced that exact
+                                                 character in the other language
+Compare tab:         "persona" + "danganronpa" -> lists every actor who's been in both,
+                                                   and which character(s) in each
 ```
 
 Partial text always live-filters the grid (e.g. typing "danga" on the
 Works tab shows every Danganronpa entry); only an exact, full-name
-match jumps straight to a detail page. The language dropdown applies
-to whichever tab or detail page you're on, so e.g. picking "Japanese"
-on Frieren's work page shows only the JP cast, and picking it before
-a co-stars search only surfaces JP-side overlaps.
+match jumps straight to a detail page. All of this is case-insensitive
+-- Co-stars, Compare, and the exact-match jump all match regardless of
+capitalization.
+
+Franchises only show up as their own tab entry once **two or more**
+works are catalogued under them -- a single catalogued work stays
+franchise-less until a second one (sequel, other season, spin-off...)
+is added, even if it's part of a bigger series in real life.
 
 For poking at raw tables or writing your own SQL, `database/voice_actors.db`
 is a normal SQLite file -- see "SQLite clients" in this README's project
@@ -138,8 +197,8 @@ its entry in `data/work_metadata.json` too. Then re-run `create_db.py` +
 - See which actors have worked together (shared a work), and as which
   characters.
 - Track franchises and sequel/remake relationships between works.
-- Support English and Japanese casts (dual-language roles), filterable
-  in the dashboard.
+- Support English and Japanese casts (dual-language roles), browsable
+  as separate actor pages and shown side by side wherever a role has both.
 - Favorite actors for quick access in the dashboard.
 - Schema is general enough to eventually cover live-action / motion-capture
   acting, not just voice work.
