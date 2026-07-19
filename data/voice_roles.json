@@ -82,7 +82,7 @@
   },
   {
     "actor": "Erika Harlacher",
-    "birth_year": 1986,
+    "birth_year": 1990,
     "work": "Persona 5 Royal",
     "year": 2019,
     "character": "Ann Takamaki",
@@ -99,42 +99,6 @@
     "media_type": "Video Game"
   },
   {
-    "actor": "Ray Chase",
-    "birth_year": 1987,
-    "work": "Final Fantasy XV",
-    "year": 2016,
-    "character": "Noctis Lucis Caelum",
-    "language": "English",
-    "media_type": "Video Game"
-  },
-  {
-    "actor": "Robbie Daymond",
-    "birth_year": 1982,
-    "work": "Final Fantasy XV",
-    "year": 2016,
-    "character": "Prompto Argentum",
-    "language": "English",
-    "media_type": "Video Game"
-  },
-  {
-    "actor": "Erica Lindbeck",
-    "birth_year": 1992,
-    "work": "Final Fantasy VII Remake",
-    "year": 2020,
-    "character": "Jessie Rasberry",
-    "language": "English",
-    "media_type": "Video Game"
-  },
-  {
-    "actor": "Max Mittelman",
-    "birth_year": 1990,
-    "work": "Final Fantasy VII Remake",
-    "year": 2020,
-    "character": "Red XIII",
-    "language": "English",
-    "media_type": "Video Game"
-  },
-  {
     "actor": "Johnny Yong Bosch",
     "birth_year": 1976,
     "work": "Bleach",
@@ -145,10 +109,10 @@
   },
   {
     "actor": "Erika Harlacher",
-    "birth_year": 1986,
+    "birth_year": 1990,
     "work": "Sword Art Online",
     "year": 2012,
-    "character": "Elizabeth Liones",
+    "character": "Sasha",
     "language": "English",
     "media_type": "Anime"
   },
@@ -158,15 +122,6 @@
     "work": "Attack on Titan",
     "year": 2013,
     "character": "Eren Yeager",
-    "language": "English",
-    "media_type": "Anime"
-  },
-  {
-    "actor": "Yuri Lowenthal",
-    "birth_year": 1971,
-    "work": "Naruto Shippuden",
-    "year": 2007,
-    "character": "Sasuke Uchiha",
     "language": "English",
     "media_type": "Anime"
   },
@@ -235,7 +190,7 @@
   },
   {
     "actor": "Adam McArthur",
-    "birth_year": 1988,
+    "birth_year": 1982,
     "work": "Jujutsu Kaisen",
     "year": 2020,
     "character": "Yuji Itadori",
@@ -316,7 +271,7 @@
   },
   {
     "actor": "Aleks Le",
-    "birth_year": 1989,
+    "birth_year": 1999,
     "work": "Persona 3 Reload",
     "year": 2024,
     "character": "Makoto Yuki",
@@ -325,7 +280,7 @@
   },
   {
     "actor": "Zach Aguilar",
-    "birth_year": 1995,
+    "birth_year": 1998,
     "work": "Demon Slayer",
     "year": 2019,
     "character": "Tanjiro Kamado",
@@ -405,11 +360,11 @@
     "media_type": "Anime"
   },
   {
-    "actor": "Koki Uchiyama",
-    "birth_year": 1990,
+    "actor": "Setsuo Ito",
+    "birth_year": 1991,
     "work": "Mob Psycho 100",
     "year": 2016,
-    "character": "Shigeo Kageyama (Shadow Clone scenes)",
+    "character": "Shigeo Kageyama",
     "language": "Japanese",
     "media_type": "Anime"
   },
@@ -421,5 +376,2561 @@
     "character": "Nagito Komaeda",
     "language": "Japanese",
     "media_type": "Anime"
+  },
+  {
+    "actor": "Hana Hayes",
+    "birth_year": 1999,
+    "work": "The Last of Us",
+    "year": 2013,
+    "character": "Sarah",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Jeffrey Pierce",
+    "birth_year": 1971,
+    "work": "The Last of Us",
+    "year": 2013,
+    "character": "Tommy",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Annie Wersching",
+    "birth_year": 1977,
+    "work": "The Last of Us",
+    "year": 2013,
+    "character": "Tess",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Merle Dandridge",
+    "birth_year": 1975,
+    "work": "The Last of Us",
+    "year": 2013,
+    "character": "Marlene",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "W. Earl Brown",
+    "birth_year": 1963,
+    "work": "The Last of Us",
+    "year": 2013,
+    "character": "Bill",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Brandon Scott",
+    "birth_year": 1981,
+    "work": "The Last of Us",
+    "year": 2013,
+    "character": "Henry",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Nolan North",
+    "birth_year": 1970,
+    "work": "The Last of Us",
+    "year": 2013,
+    "character": "David",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Shannon Woodward",
+    "birth_year": 1984,
+    "work": "The Last of Us Part II",
+    "year": 2020,
+    "character": "Dina",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Stephen Chang",
+    "birth_year": 1985,
+    "work": "The Last of Us Part II",
+    "year": 2020,
+    "character": "Jesse",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Ian Alexander",
+    "birth_year": 2001,
+    "work": "The Last of Us Part II",
+    "year": 2020,
+    "character": "Lev",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Victoria Grace",
+    "birth_year": null,
+    "work": "The Last of Us Part II",
+    "year": 2020,
+    "character": "Yara",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Chelsea Tavares",
+    "birth_year": 1991,
+    "work": "The Last of Us Part II",
+    "year": 2020,
+    "character": "Nora",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Jeffrey Pierce",
+    "birth_year": 1971,
+    "work": "The Last of Us Part II",
+    "year": 2020,
+    "character": "Tommy",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Michelle Ruff",
+    "birth_year": 1967,
+    "work": "Persona 3",
+    "year": 2006,
+    "character": "Yukari Takeba",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Tara Platt",
+    "birth_year": 1978,
+    "work": "Persona 3",
+    "year": 2006,
+    "character": "Mitsuru Kirijo",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Liam O'Brien",
+    "birth_year": 1976,
+    "work": "Persona 3",
+    "year": 2006,
+    "character": "Akihiko Sanada",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Vic Mignogna",
+    "birth_year": 1962,
+    "work": "Persona 3",
+    "year": 2006,
+    "character": "Junpei Iori",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Paula Tiso",
+    "birth_year": null,
+    "work": "Persona 3",
+    "year": 2006,
+    "character": "Fuuka Yamagishi",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Karen Strassman",
+    "birth_year": 1966,
+    "work": "Persona 3",
+    "year": 2006,
+    "character": "Aigis",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Carolyn Hennesy",
+    "birth_year": 1962,
+    "work": "Persona 3",
+    "year": 2006,
+    "character": "Ken Amada",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Grant George",
+    "birth_year": 1971,
+    "work": "Persona 3",
+    "year": 2006,
+    "character": "Shinjiro Aragaki",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Heather Gonzalez",
+    "birth_year": 1992,
+    "work": "Persona 3 Reload",
+    "year": 2024,
+    "character": "Yukari Takeba",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Allegra Clark",
+    "birth_year": 1988,
+    "work": "Persona 3 Reload",
+    "year": 2024,
+    "character": "Mitsuru Kirijo",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Alejandro Saab",
+    "birth_year": 1994,
+    "work": "Persona 3 Reload",
+    "year": 2024,
+    "character": "Akihiko Sanada",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Zeno Robinson",
+    "birth_year": 1993,
+    "work": "Persona 3 Reload",
+    "year": 2024,
+    "character": "Junpei Iori",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Suzie Yeung",
+    "birth_year": 1991,
+    "work": "Persona 3 Reload",
+    "year": 2024,
+    "character": "Fuuka Yamagishi",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Dawn M. Bennett",
+    "birth_year": 1992,
+    "work": "Persona 3 Reload",
+    "year": 2024,
+    "character": "Aigis",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Justine Lee",
+    "birth_year": null,
+    "work": "Persona 3 Reload",
+    "year": 2024,
+    "character": "Ken Amada",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Justice Slocum",
+    "birth_year": null,
+    "work": "Persona 3 Reload",
+    "year": 2024,
+    "character": "Shinjiro Aragaki",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Erin Fitzgerald",
+    "birth_year": 1972,
+    "work": "Persona 4 Golden",
+    "year": 2012,
+    "character": "Chie Satonaka",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Amanda Winn Lee",
+    "birth_year": 1972,
+    "work": "Persona 4 Golden",
+    "year": 2012,
+    "character": "Yukiko Amagi",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Laura Bailey",
+    "birth_year": 1981,
+    "work": "Persona 4 Golden",
+    "year": 2012,
+    "character": "Rise Kujikawa",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Anna Graves",
+    "birth_year": 1978,
+    "work": "Persona 4 Golden",
+    "year": 2012,
+    "character": "Naoto Shirogane",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Sam Riegel",
+    "birth_year": 1976,
+    "work": "Persona 4 Golden",
+    "year": 2012,
+    "character": "Teddie",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Cassandra Lee Morris",
+    "birth_year": 1982,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Morgana",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Xanthe Huynh",
+    "birth_year": 1987,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Haru Okumura",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Robbie Daymond",
+    "birth_year": 1982,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Goro Akechi",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Laura Post",
+    "birth_year": 1983,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Sumire Yoshizawa",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Johnny Yong Bosch",
+    "birth_year": 1976,
+    "work": "Persona 4 the Animation",
+    "year": 2011,
+    "character": "Yu Narukami",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Yuri Lowenthal",
+    "birth_year": 1971,
+    "work": "Persona 4 the Animation",
+    "year": 2011,
+    "character": "Yosuke Hanamura",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Erin Fitzgerald",
+    "birth_year": 1972,
+    "work": "Persona 4 the Animation",
+    "year": 2011,
+    "character": "Chie Satonaka",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Amanda Winn Lee",
+    "birth_year": 1972,
+    "work": "Persona 4 the Animation",
+    "year": 2011,
+    "character": "Yukiko Amagi",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Matthew Mercer",
+    "birth_year": 1982,
+    "work": "Persona 4 the Animation",
+    "year": 2011,
+    "character": "Kanji Tatsumi",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Laura Bailey",
+    "birth_year": 1981,
+    "work": "Persona 4 the Animation",
+    "year": 2011,
+    "character": "Rise Kujikawa",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Mary Elizabeth McGlynn",
+    "birth_year": 1966,
+    "work": "Persona 4 the Animation",
+    "year": 2011,
+    "character": "Naoto Shirogane",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Sam Riegel",
+    "birth_year": 1976,
+    "work": "Persona 4 the Animation",
+    "year": 2011,
+    "character": "Teddie",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Xander Mobus",
+    "birth_year": null,
+    "work": "Persona 5 the Animation",
+    "year": 2018,
+    "character": "Joker",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Erika Harlacher",
+    "birth_year": 1990,
+    "work": "Persona 5 the Animation",
+    "year": 2018,
+    "character": "Ann Takamaki",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Max Mittelman",
+    "birth_year": 1990,
+    "work": "Persona 5 the Animation",
+    "year": 2018,
+    "character": "Ryuji Sakamoto",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Cassandra Lee Morris",
+    "birth_year": 1982,
+    "work": "Persona 5 the Animation",
+    "year": 2018,
+    "character": "Morgana",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Erika Harlacher",
+    "birth_year": 1990,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Kyoko Kirigiri",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Jason Wishnov",
+    "birth_year": 1989,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Byakuya Togami",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Cassandra Lee Morris",
+    "birth_year": 1982,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Aoi Asahina",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Bennett Abara",
+    "birth_year": 1987,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Toko Fukawa",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Dorothy Elias-Fahn",
+    "birth_year": 1962,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Sayaka Maizono",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Keith Silverstein",
+    "birth_year": 1970,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Mondo Owada",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Sean Chiplock",
+    "birth_year": 1990,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Kiyotaka Ishimaru",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Marieve Herington",
+    "birth_year": 1988,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Celestia Ludenberg",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Bryce Papenbrook",
+    "birth_year": 1986,
+    "work": "Danganronpa: The Animation",
+    "year": 2013,
+    "character": "Makoto Naegi",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Jamie Marchi",
+    "birth_year": 1977,
+    "work": "Danganronpa: The Animation",
+    "year": 2013,
+    "character": "Junko Enoshima",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Monica Rial",
+    "birth_year": 1975,
+    "work": "Danganronpa: The Animation",
+    "year": 2013,
+    "character": "Sayaka Maizono",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Christopher Sabat",
+    "birth_year": 1973,
+    "work": "Danganronpa: The Animation",
+    "year": 2013,
+    "character": "Mondo Owada",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Austin Tindle",
+    "birth_year": 1984,
+    "work": "Danganronpa: The Animation",
+    "year": 2013,
+    "character": "Kiyotaka Ishimaru",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Lindsay Seidel",
+    "birth_year": 1991,
+    "work": "Danganronpa: The Animation",
+    "year": 2013,
+    "character": "Celestia Ludenberg",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Caitlin Glass",
+    "birth_year": 1981,
+    "work": "Danganronpa: The Animation",
+    "year": 2013,
+    "character": "Kyoko Kirigiri",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Johnny Yong Bosch",
+    "birth_year": 1976,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Hajime Hinata",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Christine Marie Cabanos",
+    "birth_year": 1988,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Chiaki Nanami",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Stephanie Sheh",
+    "birth_year": 1977,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Mikan Tsumiki",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Derek Stephen Prince",
+    "birth_year": 1969,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Fuyuhiko Kuzuryu",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Janice Kawaye",
+    "birth_year": 1970,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Peko Pekoyama",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Natalie Hoover",
+    "birth_year": 1989,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Sonia Nevermind",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Chris Tergliafera",
+    "birth_year": 1983,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Gundham Tanaka",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Kyle Hebert",
+    "birth_year": 1969,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Kazuichi Soda",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Julie Ann Taylor",
+    "birth_year": 1966,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Ibuki Mioda",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Carrie Keranen",
+    "birth_year": 1976,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Mahiru Koizumi",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Bryce Papenbrook",
+    "birth_year": 1986,
+    "work": "Danganronpa 3",
+    "year": 2016,
+    "character": "Makoto Naegi",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Johnny Yong Bosch",
+    "birth_year": 1976,
+    "work": "Danganronpa 3",
+    "year": 2016,
+    "character": "Hajime Hinata",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Caitlin Glass",
+    "birth_year": 1981,
+    "work": "Danganronpa 3",
+    "year": 2016,
+    "character": "Kyoko Kirigiri",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Christine Marie Cabanos",
+    "birth_year": 1988,
+    "work": "Danganronpa 3",
+    "year": 2016,
+    "character": "Chiaki Nanami",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Erika Harlacher",
+    "birth_year": 1990,
+    "work": "Danganronpa V3: Killing Harmony",
+    "year": 2017,
+    "character": "Kaede Akamatsu",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Grant George",
+    "birth_year": 1971,
+    "work": "Danganronpa V3: Killing Harmony",
+    "year": 2017,
+    "character": "Shuichi Saihara",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Derek Stephen Prince",
+    "birth_year": 1969,
+    "work": "Danganronpa V3: Killing Harmony",
+    "year": 2017,
+    "character": "Kokichi Oma",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Erica Mendez",
+    "birth_year": 1988,
+    "work": "Danganronpa V3: Killing Harmony",
+    "year": 2017,
+    "character": "Maki Harukawa",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Kyle Hebert",
+    "birth_year": 1969,
+    "work": "Danganronpa V3: Killing Harmony",
+    "year": 2017,
+    "character": "Kaito Momota",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Christine Marie Cabanos",
+    "birth_year": 1988,
+    "work": "Danganronpa V3: Killing Harmony",
+    "year": 2017,
+    "character": "Himiko Yumeno",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Dorothy Elias-Fahn",
+    "birth_year": 1962,
+    "work": "Danganronpa V3: Killing Harmony",
+    "year": 2017,
+    "character": "Tsumugi Shirogane",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Cherami Leigh",
+    "birth_year": 1988,
+    "work": "Danganronpa: Ultra Despair Girls",
+    "year": 2015,
+    "character": "Komaru Naegi",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Bennett Abara",
+    "birth_year": 1987,
+    "work": "Danganronpa: Ultra Despair Girls",
+    "year": 2015,
+    "character": "Toko Fukawa",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Jason Wishnov",
+    "birth_year": 1989,
+    "work": "Danganronpa: Ultra Despair Girls",
+    "year": 2015,
+    "character": "Byakuya Togami",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Anne Yatco",
+    "birth_year": 1984,
+    "work": "Jujutsu Kaisen",
+    "year": 2020,
+    "character": "Nobara Kugisaki",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Allegra Clark",
+    "birth_year": 1988,
+    "work": "Jujutsu Kaisen",
+    "year": 2020,
+    "character": "Maki Zenin",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "David Vincent",
+    "birth_year": 1972,
+    "work": "Jujutsu Kaisen",
+    "year": 2020,
+    "character": "Kento Nanami",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Ray Chase",
+    "birth_year": 1987,
+    "work": "Jujutsu Kaisen",
+    "year": 2020,
+    "character": "Ryomen Sukuna",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Lex Lang",
+    "birth_year": 1965,
+    "work": "Jujutsu Kaisen",
+    "year": 2020,
+    "character": "Suguru Geto",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Abby Trott",
+    "birth_year": 1986,
+    "work": "Dandadan",
+    "year": 2024,
+    "character": "Momo Ayase",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "AJ Beckles",
+    "birth_year": 1998,
+    "work": "Dandadan",
+    "year": 2024,
+    "character": "Ken Takakura",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Lisa Reimold",
+    "birth_year": 1998,
+    "work": "Dandadan",
+    "year": 2024,
+    "character": "Aira Shiratori",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Matthew Mercer",
+    "birth_year": 1982,
+    "work": "JoJo's Bizarre Adventure: Stardust Crusaders",
+    "year": 2014,
+    "character": "Jotaro Kujo",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Richard Epcar",
+    "birth_year": 1955,
+    "work": "JoJo's Bizarre Adventure: Stardust Crusaders",
+    "year": 2014,
+    "character": "Joseph Joestar",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Patrick Seitz",
+    "birth_year": 1978,
+    "work": "JoJo's Bizarre Adventure: Stardust Crusaders",
+    "year": 2014,
+    "character": "DIO",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Mallorie Rodak",
+    "birth_year": 1987,
+    "work": "Frieren: Beyond Journey's End",
+    "year": 2023,
+    "character": "Frieren",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Jill Harris",
+    "birth_year": 1994,
+    "work": "Frieren: Beyond Journey's End",
+    "year": 2023,
+    "character": "Fern",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Jordan Dash Cruz",
+    "birth_year": 1990,
+    "work": "Frieren: Beyond Journey's End",
+    "year": 2023,
+    "character": "Stark",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Clifford Chapin",
+    "birth_year": 1988,
+    "work": "Frieren: Beyond Journey's End",
+    "year": 2023,
+    "character": "Himmel",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Damien Haas",
+    "birth_year": 1990,
+    "work": "Delicious in Dungeon",
+    "year": 2024,
+    "character": "Laios",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Emily Rudd",
+    "birth_year": 1993,
+    "work": "Delicious in Dungeon",
+    "year": 2024,
+    "character": "Marcille Donato",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Casey Mongillo",
+    "birth_year": 1987,
+    "work": "Delicious in Dungeon",
+    "year": 2024,
+    "character": "Chilchuck Tims",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "SungWon Cho",
+    "birth_year": 1990,
+    "work": "Delicious in Dungeon",
+    "year": 2024,
+    "character": "Senshi",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Yuri Lowenthal",
+    "birth_year": 1971,
+    "work": "Gurren Lagann",
+    "year": 2007,
+    "character": "Simon",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Kyle Hebert",
+    "birth_year": 1969,
+    "work": "Gurren Lagann",
+    "year": 2007,
+    "character": "Kamina",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Michelle Ruff",
+    "birth_year": 1967,
+    "work": "Gurren Lagann",
+    "year": 2007,
+    "character": "Yoko Littner",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Sam Riegel",
+    "birth_year": 1976,
+    "work": "Gurren Lagann",
+    "year": 2007,
+    "character": "Viral",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Hynden Walch",
+    "birth_year": 1971,
+    "work": "Gurren Lagann",
+    "year": 2007,
+    "character": "Nia Teppelin",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Ryan Colt Levy",
+    "birth_year": 1987,
+    "work": "Chainsaw Man",
+    "year": 2022,
+    "character": "Denji",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Sarah Wiedenheft",
+    "birth_year": 1993,
+    "work": "Chainsaw Man",
+    "year": 2022,
+    "character": "Power",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Reagan Murdock",
+    "birth_year": 1994,
+    "work": "Chainsaw Man",
+    "year": 2022,
+    "character": "Aki Hayakawa",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Suzie Yeung",
+    "birth_year": 1991,
+    "work": "Chainsaw Man",
+    "year": 2022,
+    "character": "Makima",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Zach Aguilar",
+    "birth_year": 1998,
+    "work": "Cyberpunk: Edgerunners",
+    "year": 2022,
+    "character": "David Martinez",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Emi Lo",
+    "birth_year": 1991,
+    "work": "Cyberpunk: Edgerunners",
+    "year": 2022,
+    "character": "Lucy",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Alex Cazares",
+    "birth_year": 1992,
+    "work": "Cyberpunk: Edgerunners",
+    "year": 2022,
+    "character": "Rebecca",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "William Stephens",
+    "birth_year": null,
+    "work": "Cyberpunk: Edgerunners",
+    "year": 2022,
+    "character": "Maine",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Matthew Mercer",
+    "birth_year": 1982,
+    "work": "Cyberpunk: Edgerunners",
+    "year": 2022,
+    "character": "Falco",
+    "language": "English",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Maaya Sakamoto",
+    "birth_year": null,
+    "work": "Persona 3",
+    "year": 2006,
+    "character": "Aigis",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Hikaru Midorikawa",
+    "birth_year": null,
+    "work": "Persona 3",
+    "year": 2006,
+    "character": "Akihiko Sanada",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Mamiko Noto",
+    "birth_year": null,
+    "work": "Persona 3",
+    "year": 2006,
+    "character": "Fuuka Yamagishi",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Kosuke Toriumi",
+    "birth_year": null,
+    "work": "Persona 3",
+    "year": 2006,
+    "character": "Junpei Iori",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Megumi Ogata",
+    "birth_year": null,
+    "work": "Persona 3",
+    "year": 2006,
+    "character": "Ken Amada",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Akira Ishida",
+    "birth_year": null,
+    "work": "Persona 3",
+    "year": 2006,
+    "character": "Makoto Yuki",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Rie Tanaka",
+    "birth_year": null,
+    "work": "Persona 3",
+    "year": 2006,
+    "character": "Mitsuru Kirijo",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Kazuya Nakai",
+    "birth_year": null,
+    "work": "Persona 3",
+    "year": 2006,
+    "character": "Shinjiro Aragaki",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Megumi Toyoguchi",
+    "birth_year": null,
+    "work": "Persona 3",
+    "year": 2006,
+    "character": "Yukari Takeba",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Maaya Sakamoto",
+    "birth_year": null,
+    "work": "Persona 3 Reload",
+    "year": 2024,
+    "character": "Aigis",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Hikaru Midorikawa",
+    "birth_year": null,
+    "work": "Persona 3 Reload",
+    "year": 2024,
+    "character": "Akihiko Sanada",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Mamiko Noto",
+    "birth_year": null,
+    "work": "Persona 3 Reload",
+    "year": 2024,
+    "character": "Fuuka Yamagishi",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Kosuke Toriumi",
+    "birth_year": null,
+    "work": "Persona 3 Reload",
+    "year": 2024,
+    "character": "Junpei Iori",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Megumi Ogata",
+    "birth_year": null,
+    "work": "Persona 3 Reload",
+    "year": 2024,
+    "character": "Ken Amada",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Akira Ishida",
+    "birth_year": null,
+    "work": "Persona 3 Reload",
+    "year": 2024,
+    "character": "Makoto Yuki",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Rie Tanaka",
+    "birth_year": null,
+    "work": "Persona 3 Reload",
+    "year": 2024,
+    "character": "Mitsuru Kirijo",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Kazuya Nakai",
+    "birth_year": null,
+    "work": "Persona 3 Reload",
+    "year": 2024,
+    "character": "Shinjiro Aragaki",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Megumi Toyoguchi",
+    "birth_year": null,
+    "work": "Persona 3 Reload",
+    "year": 2024,
+    "character": "Yukari Takeba",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Yui Horie",
+    "birth_year": null,
+    "work": "Persona 4 Golden",
+    "year": 2012,
+    "character": "Chie Satonaka",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Tomokazu Seki",
+    "birth_year": null,
+    "work": "Persona 4 Golden",
+    "year": 2012,
+    "character": "Kanji Tatsumi",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Romi Park",
+    "birth_year": null,
+    "work": "Persona 4 Golden",
+    "year": 2012,
+    "character": "Naoto Shirogane",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Rie Kugimiya",
+    "birth_year": null,
+    "work": "Persona 4 Golden",
+    "year": 2012,
+    "character": "Rise Kujikawa",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Kappei Yamaguchi",
+    "birth_year": null,
+    "work": "Persona 4 Golden",
+    "year": 2012,
+    "character": "Teddie",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Showtaro Morikubo",
+    "birth_year": null,
+    "work": "Persona 4 Golden",
+    "year": 2012,
+    "character": "Yosuke Hanamura",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Daisuke Namikawa",
+    "birth_year": null,
+    "work": "Persona 4 Golden",
+    "year": 2012,
+    "character": "Yu Narukami",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Ami Koshimizu",
+    "birth_year": null,
+    "work": "Persona 4 Golden",
+    "year": 2012,
+    "character": "Yukiko Amagi",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Yui Horie",
+    "birth_year": null,
+    "work": "Persona 4 the Animation",
+    "year": 2011,
+    "character": "Chie Satonaka",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Tomokazu Seki",
+    "birth_year": null,
+    "work": "Persona 4 the Animation",
+    "year": 2011,
+    "character": "Kanji Tatsumi",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Romi Park",
+    "birth_year": null,
+    "work": "Persona 4 the Animation",
+    "year": 2011,
+    "character": "Naoto Shirogane",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Rie Kugimiya",
+    "birth_year": null,
+    "work": "Persona 4 the Animation",
+    "year": 2011,
+    "character": "Rise Kujikawa",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Kappei Yamaguchi",
+    "birth_year": null,
+    "work": "Persona 4 the Animation",
+    "year": 2011,
+    "character": "Teddie",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Showtaro Morikubo",
+    "birth_year": null,
+    "work": "Persona 4 the Animation",
+    "year": 2011,
+    "character": "Yosuke Hanamura",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Daisuke Namikawa",
+    "birth_year": null,
+    "work": "Persona 4 the Animation",
+    "year": 2011,
+    "character": "Yu Narukami",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Ami Koshimizu",
+    "birth_year": null,
+    "work": "Persona 4 the Animation",
+    "year": 2011,
+    "character": "Yukiko Amagi",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Nana Mizuki",
+    "birth_year": null,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Ann Takamaki",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Aoi Yuki",
+    "birth_year": null,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Futaba Sakura",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Soichiro Hoshi",
+    "birth_year": null,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Goro Akechi",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Haruka Tomatsu",
+    "birth_year": null,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Haru Okumura",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Jun Fukuyama",
+    "birth_year": null,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Joker",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Rina Sato",
+    "birth_year": null,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Makoto Niijima",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Ikue Otani",
+    "birth_year": null,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Morgana",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Mamoru Miyano",
+    "birth_year": null,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Ryuji Sakamoto",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Sora Amamiya",
+    "birth_year": null,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Sumire Yoshizawa",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Tomokazu Sugita",
+    "birth_year": null,
+    "work": "Persona 5 Royal",
+    "year": 2019,
+    "character": "Yusuke Kitagawa",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Nana Mizuki",
+    "birth_year": null,
+    "work": "Persona 5 the Animation",
+    "year": 2018,
+    "character": "Ann Takamaki",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Jun Fukuyama",
+    "birth_year": null,
+    "work": "Persona 5 the Animation",
+    "year": 2018,
+    "character": "Joker",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Ikue Otani",
+    "birth_year": null,
+    "work": "Persona 5 the Animation",
+    "year": 2018,
+    "character": "Morgana",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Mamoru Miyano",
+    "birth_year": null,
+    "work": "Persona 5 the Animation",
+    "year": 2018,
+    "character": "Ryuji Sakamoto",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Chiwa Saito",
+    "birth_year": null,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Aoi Asahina",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Akira Ishida",
+    "birth_year": null,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Byakuya Togami",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Hekiru Shiina",
+    "birth_year": null,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Celestia Ludenberg",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Megumi Toyoguchi",
+    "birth_year": null,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Junko Enoshima",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Kosuke Toriumi",
+    "birth_year": null,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Kiyotaka Ishimaru",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Yoko Hikasa",
+    "birth_year": null,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Kyoko Kirigiri",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Megumi Ogata",
+    "birth_year": null,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Makoto Naegi",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Kazuya Nakai",
+    "birth_year": null,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Mondo Owada",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Makiko Omoto",
+    "birth_year": null,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Sayaka Maizono",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Miyuki Sawashiro",
+    "birth_year": null,
+    "work": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "character": "Toko Fukawa",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Hekiru Shiina",
+    "birth_year": null,
+    "work": "Danganronpa: The Animation",
+    "year": 2013,
+    "character": "Celestia Ludenberg",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Megumi Toyoguchi",
+    "birth_year": null,
+    "work": "Danganronpa: The Animation",
+    "year": 2013,
+    "character": "Junko Enoshima",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Kosuke Toriumi",
+    "birth_year": null,
+    "work": "Danganronpa: The Animation",
+    "year": 2013,
+    "character": "Kiyotaka Ishimaru",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Yoko Hikasa",
+    "birth_year": null,
+    "work": "Danganronpa: The Animation",
+    "year": 2013,
+    "character": "Kyoko Kirigiri",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Megumi Ogata",
+    "birth_year": null,
+    "work": "Danganronpa: The Animation",
+    "year": 2013,
+    "character": "Makoto Naegi",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Kazuya Nakai",
+    "birth_year": null,
+    "work": "Danganronpa: The Animation",
+    "year": 2013,
+    "character": "Mondo Owada",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Makiko Omoto",
+    "birth_year": null,
+    "work": "Danganronpa: The Animation",
+    "year": 2013,
+    "character": "Sayaka Maizono",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Kana Hanazawa",
+    "birth_year": null,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Chiaki Nanami",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Daisuke Kishio",
+    "birth_year": null,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Fuyuhiko Kuzuryu",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Tomokazu Sugita",
+    "birth_year": null,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Gundham Tanaka",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Minami Takayama",
+    "birth_year": null,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Hajime Hinata",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Ami Koshimizu",
+    "birth_year": null,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Ibuki Mioda",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Yoshimasa Hosoya",
+    "birth_year": null,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Kazuichi Soda",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Yu Kobayashi",
+    "birth_year": null,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Mahiru Koizumi",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Ai Kayano",
+    "birth_year": null,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Mikan Tsumiki",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Megumi Ogata",
+    "birth_year": null,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Nagito Komaeda",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Kotono Mitsuishi",
+    "birth_year": null,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Peko Pekoyama",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Miho Arakawa",
+    "birth_year": null,
+    "work": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "character": "Sonia Nevermind",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Kana Hanazawa",
+    "birth_year": null,
+    "work": "Danganronpa 3",
+    "year": 2016,
+    "character": "Chiaki Nanami",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Minami Takayama",
+    "birth_year": null,
+    "work": "Danganronpa 3",
+    "year": 2016,
+    "character": "Hajime Hinata",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Yoko Hikasa",
+    "birth_year": null,
+    "work": "Danganronpa 3",
+    "year": 2016,
+    "character": "Kyoko Kirigiri",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Megumi Ogata",
+    "birth_year": null,
+    "work": "Danganronpa 3",
+    "year": 2016,
+    "character": "Makoto Naegi",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Aimi Tanaka",
+    "birth_year": null,
+    "work": "Danganronpa V3: Killing Harmony",
+    "year": 2017,
+    "character": "Himiko Yumeno",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Sayaka Kanda",
+    "birth_year": null,
+    "work": "Danganronpa V3: Killing Harmony",
+    "year": 2017,
+    "character": "Kaede Akamatsu",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Ryohei Kimura",
+    "birth_year": null,
+    "work": "Danganronpa V3: Killing Harmony",
+    "year": 2017,
+    "character": "Kaito Momota",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Hiro Shimono",
+    "birth_year": null,
+    "work": "Danganronpa V3: Killing Harmony",
+    "year": 2017,
+    "character": "Kokichi Oma",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Maaya Sakamoto",
+    "birth_year": null,
+    "work": "Danganronpa V3: Killing Harmony",
+    "year": 2017,
+    "character": "Maki Harukawa",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Megumi Hayashibara",
+    "birth_year": null,
+    "work": "Danganronpa V3: Killing Harmony",
+    "year": 2017,
+    "character": "Shuichi Saihara",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Mikako Komatsu",
+    "birth_year": null,
+    "work": "Danganronpa V3: Killing Harmony",
+    "year": 2017,
+    "character": "Tsumugi Shirogane",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Akira Ishida",
+    "birth_year": null,
+    "work": "Danganronpa: Ultra Despair Girls",
+    "year": 2015,
+    "character": "Byakuya Togami",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Aya Uchida",
+    "birth_year": null,
+    "work": "Danganronpa: Ultra Despair Girls",
+    "year": 2015,
+    "character": "Komaru Naegi",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Miyuki Sawashiro",
+    "birth_year": null,
+    "work": "Danganronpa: Ultra Despair Girls",
+    "year": 2015,
+    "character": "Toko Fukawa",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Kenjiro Tsuda",
+    "birth_year": null,
+    "work": "Jujutsu Kaisen",
+    "year": 2020,
+    "character": "Kento Nanami",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Mikako Komatsu",
+    "birth_year": null,
+    "work": "Jujutsu Kaisen",
+    "year": 2020,
+    "character": "Maki Zenin",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Yuma Uchida",
+    "birth_year": null,
+    "work": "Jujutsu Kaisen",
+    "year": 2020,
+    "character": "Megumi Fushiguro",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Asami Seto",
+    "birth_year": null,
+    "work": "Jujutsu Kaisen",
+    "year": 2020,
+    "character": "Nobara Kugisaki",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Junichi Suwabe",
+    "birth_year": null,
+    "work": "Jujutsu Kaisen",
+    "year": 2020,
+    "character": "Ryomen Sukuna",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Yuichi Nakamura",
+    "birth_year": null,
+    "work": "Jujutsu Kaisen",
+    "year": 2020,
+    "character": "Satoru Gojo",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Junya Enoki",
+    "birth_year": null,
+    "work": "Jujutsu Kaisen",
+    "year": 2020,
+    "character": "Yuji Itadori",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Ayane Sakura",
+    "birth_year": null,
+    "work": "Dandadan",
+    "year": 2024,
+    "character": "Aira Shiratori",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Natsuki Hanae",
+    "birth_year": null,
+    "work": "Dandadan",
+    "year": 2024,
+    "character": "Ken Takakura",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Shion Wakayama",
+    "birth_year": null,
+    "work": "Dandadan",
+    "year": 2024,
+    "character": "Momo Ayase",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Takehito Koyasu",
+    "birth_year": null,
+    "work": "JoJo's Bizarre Adventure: Stardust Crusaders",
+    "year": 2014,
+    "character": "DIO",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Unshou Ishizuka",
+    "birth_year": null,
+    "work": "JoJo's Bizarre Adventure: Stardust Crusaders",
+    "year": 2014,
+    "character": "Joseph Joestar",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Daisuke Ono",
+    "birth_year": null,
+    "work": "JoJo's Bizarre Adventure: Stardust Crusaders",
+    "year": 2014,
+    "character": "Jotaro Kujo",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Kana Ichinose",
+    "birth_year": null,
+    "work": "Frieren: Beyond Journey's End",
+    "year": 2023,
+    "character": "Fern",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Atsumi Tanezaki",
+    "birth_year": null,
+    "work": "Frieren: Beyond Journey's End",
+    "year": 2023,
+    "character": "Frieren",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Nobuhiko Okamoto",
+    "birth_year": null,
+    "work": "Frieren: Beyond Journey's End",
+    "year": 2023,
+    "character": "Himmel",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Chiaki Kobayashi",
+    "birth_year": null,
+    "work": "Frieren: Beyond Journey's End",
+    "year": 2023,
+    "character": "Stark",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Asuna Tomari",
+    "birth_year": null,
+    "work": "Delicious in Dungeon",
+    "year": 2024,
+    "character": "Chilchuck Tims",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Kentaro Kumagai",
+    "birth_year": null,
+    "work": "Delicious in Dungeon",
+    "year": 2024,
+    "character": "Laios",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Sayaka Senbongi",
+    "birth_year": null,
+    "work": "Delicious in Dungeon",
+    "year": 2024,
+    "character": "Marcille Donato",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Hiroshi Naka",
+    "birth_year": null,
+    "work": "Delicious in Dungeon",
+    "year": 2024,
+    "character": "Senshi",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Katsuyuki Konishi",
+    "birth_year": null,
+    "work": "Gurren Lagann",
+    "year": 2007,
+    "character": "Kamina",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Yukari Fukui",
+    "birth_year": null,
+    "work": "Gurren Lagann",
+    "year": 2007,
+    "character": "Nia Teppelin",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Tetsuya Kakihara",
+    "birth_year": null,
+    "work": "Gurren Lagann",
+    "year": 2007,
+    "character": "Simon",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Nobuyuki Hiyama",
+    "birth_year": null,
+    "work": "Gurren Lagann",
+    "year": 2007,
+    "character": "Viral",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Marina Inoue",
+    "birth_year": null,
+    "work": "Gurren Lagann",
+    "year": 2007,
+    "character": "Yoko Littner",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Shogo Sakata",
+    "birth_year": null,
+    "work": "Chainsaw Man",
+    "year": 2022,
+    "character": "Aki Hayakawa",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Kikunosuke Toya",
+    "birth_year": null,
+    "work": "Chainsaw Man",
+    "year": 2022,
+    "character": "Denji",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Tomori Kusunoki",
+    "birth_year": null,
+    "work": "Chainsaw Man",
+    "year": 2022,
+    "character": "Makima",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Fairouz Ai",
+    "birth_year": null,
+    "work": "Chainsaw Man",
+    "year": 2022,
+    "character": "Power",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Kenichirou Oohashi",
+    "birth_year": null,
+    "work": "Cyberpunk: Edgerunners",
+    "year": 2022,
+    "character": "David Martinez",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Yasuyuki Kase",
+    "birth_year": null,
+    "work": "Cyberpunk: Edgerunners",
+    "year": 2022,
+    "character": "Falco",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Aoi Yuki",
+    "birth_year": null,
+    "work": "Cyberpunk: Edgerunners",
+    "year": 2022,
+    "character": "Lucy",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Hiroki Touchi",
+    "birth_year": null,
+    "work": "Cyberpunk: Edgerunners",
+    "year": 2022,
+    "character": "Maine",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Tomoyo Kurosawa",
+    "birth_year": null,
+    "work": "Cyberpunk: Edgerunners",
+    "year": 2022,
+    "character": "Rebecca",
+    "language": "Japanese",
+    "media_type": "Anime"
+  },
+  {
+    "actor": "Cherami Leigh",
+    "birth_year": null,
+    "work": "Cyberpunk 2077",
+    "year": 2020,
+    "character": "V",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Gavin Drea",
+    "birth_year": null,
+    "work": "Cyberpunk 2077",
+    "year": 2020,
+    "character": "V",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Keanu Reeves",
+    "birth_year": 1964,
+    "work": "Cyberpunk 2077",
+    "year": 2020,
+    "character": "Johnny Silverhand",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Carla Tassara",
+    "birth_year": null,
+    "work": "Cyberpunk 2077",
+    "year": 2020,
+    "character": "Judy Alvarez",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Emily Woo Zeller",
+    "birth_year": null,
+    "work": "Cyberpunk 2077",
+    "year": 2020,
+    "character": "Panam Palmer",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Jason Hightower",
+    "birth_year": null,
+    "work": "Cyberpunk 2077",
+    "year": 2020,
+    "character": "Jackie Welles",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Roger Clark",
+    "birth_year": null,
+    "work": "Red Dead Redemption 2",
+    "year": 2018,
+    "character": "Arthur Morgan",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Rob Wiethoff",
+    "birth_year": null,
+    "work": "Red Dead Redemption 2",
+    "year": 2018,
+    "character": "John Marston",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Benjamin Byron Davis",
+    "birth_year": null,
+    "work": "Red Dead Redemption 2",
+    "year": 2018,
+    "character": "Dutch van der Linde",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Alex McKenna",
+    "birth_year": null,
+    "work": "Red Dead Redemption 2",
+    "year": 2018,
+    "character": "Sadie Adler",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Peter Blomquist",
+    "birth_year": null,
+    "work": "Red Dead Redemption 2",
+    "year": 2018,
+    "character": "Micah Bell",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Kaiji Tang",
+    "birth_year": 1982,
+    "work": "Yakuza: Like a Dragon",
+    "year": 2020,
+    "character": "Ichiban Kasuga",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Kazuhiro Nakaya",
+    "birth_year": null,
+    "work": "Yakuza: Like a Dragon",
+    "year": 2020,
+    "character": "Ichiban Kasuga",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Yong Yea",
+    "birth_year": null,
+    "work": "Yakuza: Like a Dragon",
+    "year": 2020,
+    "character": "Kazuma Kiryu",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Takaya Kuroda",
+    "birth_year": null,
+    "work": "Yakuza: Like a Dragon",
+    "year": 2020,
+    "character": "Kazuma Kiryu",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Greg Chun",
+    "birth_year": null,
+    "work": "Yakuza: Like a Dragon",
+    "year": 2020,
+    "character": "Yu Nanba",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Ken Yasuda",
+    "birth_year": null,
+    "work": "Yakuza: Like a Dragon",
+    "year": 2020,
+    "character": "Yu Nanba",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Andrew Morgado",
+    "birth_year": null,
+    "work": "Yakuza: Like a Dragon",
+    "year": 2020,
+    "character": "Koichi Adachi",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Akio Otsuka",
+    "birth_year": null,
+    "work": "Yakuza: Like a Dragon",
+    "year": 2020,
+    "character": "Koichi Adachi",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Elizabeth Maxwell",
+    "birth_year": null,
+    "work": "Yakuza: Like a Dragon",
+    "year": 2020,
+    "character": "Saeko Mukoda",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Sumire Uesaka",
+    "birth_year": null,
+    "work": "Yakuza: Like a Dragon",
+    "year": 2020,
+    "character": "Saeko Mukoda",
+    "language": "Japanese",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Ray Chase",
+    "birth_year": null,
+    "work": "X-Men '97",
+    "year": 2024,
+    "character": "Cyclops",
+    "language": "English",
+    "media_type": "TV Series"
+  },
+  {
+    "actor": "Cal Dodd",
+    "birth_year": null,
+    "work": "X-Men '97",
+    "year": 2024,
+    "character": "Wolverine",
+    "language": "English",
+    "media_type": "TV Series"
+  },
+  {
+    "actor": "Jennifer Hale",
+    "birth_year": null,
+    "work": "X-Men '97",
+    "year": 2024,
+    "character": "Jean Grey",
+    "language": "English",
+    "media_type": "TV Series"
+  },
+  {
+    "actor": "Alison Sealy-Smith",
+    "birth_year": null,
+    "work": "X-Men '97",
+    "year": 2024,
+    "character": "Storm",
+    "language": "English",
+    "media_type": "TV Series"
+  },
+  {
+    "actor": "AJ LoCascio",
+    "birth_year": null,
+    "work": "X-Men '97",
+    "year": 2024,
+    "character": "Gambit",
+    "language": "English",
+    "media_type": "TV Series"
+  },
+  {
+    "actor": "Lenore Zann",
+    "birth_year": null,
+    "work": "X-Men '97",
+    "year": 2024,
+    "character": "Rogue",
+    "language": "English",
+    "media_type": "TV Series"
+  },
+  {
+    "actor": "George Buza",
+    "birth_year": null,
+    "work": "X-Men '97",
+    "year": 2024,
+    "character": "Beast",
+    "language": "English",
+    "media_type": "TV Series"
+  },
+  {
+    "actor": "JP Karliak",
+    "birth_year": null,
+    "work": "X-Men '97",
+    "year": 2024,
+    "character": "Morph",
+    "language": "English",
+    "media_type": "TV Series"
+  },
+  {
+    "actor": "Matthew Waterson",
+    "birth_year": null,
+    "work": "X-Men '97",
+    "year": 2024,
+    "character": "Magneto",
+    "language": "English",
+    "media_type": "TV Series"
+  },
+  {
+    "actor": "Yuri Lowenthal",
+    "birth_year": null,
+    "work": "Marvel Rivals",
+    "year": 2024,
+    "character": "Spider-Man",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Josh Keaton",
+    "birth_year": null,
+    "work": "Marvel Rivals",
+    "year": 2024,
+    "character": "Iron Man",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Fred Tatasciore",
+    "birth_year": null,
+    "work": "Marvel Rivals",
+    "year": 2024,
+    "character": "Hulk",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Liam O'Brien",
+    "birth_year": null,
+    "work": "Marvel Rivals",
+    "year": 2024,
+    "character": "Doctor Strange",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Troy Baker",
+    "birth_year": null,
+    "work": "Marvel Rivals",
+    "year": 2024,
+    "character": "Loki",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Mara Junot",
+    "birth_year": null,
+    "work": "Marvel Rivals",
+    "year": 2024,
+    "character": "Storm",
+    "language": "English",
+    "media_type": "Video Game"
+  },
+  {
+    "actor": "Kate Higgins",
+    "birth_year": null,
+    "work": "Marvel Rivals",
+    "year": 2024,
+    "character": "Scarlet Witch",
+    "language": "English",
+    "media_type": "Video Game"
   }
 ]

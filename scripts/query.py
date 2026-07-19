@@ -179,22 +179,28 @@ def query_franchise(conn, name):
 # QUERY: CO-STARS
 # -------------------------
 def query_costars(conn, name):
-    """Other actors who share a work with the given actor."""
+    """Other actors who share a work with the given actor, and which
+    characters were involved on both sides."""
     cur = conn.cursor()
 
     rows = cur.execute("""
-        SELECT DISTINCT
+        SELECT
+            GROUP_CONCAT(DISTINCT c1.canonical_name) AS my_characters,
             a2.name,
+            c2.canonical_name,
             w.title,
             w.release_year
         FROM Performances p1
         JOIN Actors a1 ON p1.actor_id = a1.actor_id
         JOIN CharacterAppearances ca1 ON p1.appearance_id = ca1.appearance_id
+        JOIN Characters c1 ON ca1.character_id = c1.character_id
         JOIN Works w ON ca1.work_id = w.work_id
         JOIN CharacterAppearances ca2 ON ca2.work_id = w.work_id
         JOIN Performances p2 ON p2.appearance_id = ca2.appearance_id
         JOIN Actors a2 ON p2.actor_id = a2.actor_id
+        JOIN Characters c2 ON ca2.character_id = c2.character_id
         WHERE a1.name = ? AND a2.actor_id != a1.actor_id
+        GROUP BY a2.actor_id, c2.character_id, w.work_id
         ORDER BY w.release_year, a2.name;
     """, (name,)).fetchall()
 
@@ -205,8 +211,8 @@ def query_costars(conn, name):
         print("No results found.")
         return
 
-    for costar, work, year in rows:
-        print(f"{costar} — {work} ({year})")
+    for my_characters, costar, costar_character, work, year in rows:
+        print(f"{costar} as {costar_character} — {work} ({year}) [you: {my_characters}]")
 
 
 # -------------------------
