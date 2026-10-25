@@ -1,0 +1,11 @@
+{
+  "name": "actor_db",
+  "private": true,
+  "description": "Dev dependency for tests/test_dashboard.js -- the dashboard itself is a self-contained, dependency-free single HTML file.",
+  "scripts": {
+    "test": "node tests/test_dashboard.js"
+  },
+  "devDependencies": {
+    "jsdom": "^24.0.0"
+  }
+}

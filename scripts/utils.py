@@ -1,14 +1,22 @@
 """Shared helpers for the actor_db scripts.
 
-Every script in this folder is expected to be run from the repo root
-(e.g. `python scripts/create_db.py`), which is why paths here are relative.
+All paths are anchored to the repo root (the parent of scripts/), so scripts
+can be run from any working directory.
 """
 
+import os
 import sqlite3
 from pathlib import Path
 
-DB_PATH = Path("database/voice_actors.db")
-SCHEMA_PATH = Path("database/schema.sql")
+ROOT = Path(__file__).resolve().parent.parent
+# ACTORDB_DB / ACTORDB_DASHBOARD override the defaults (used by the dashboard test to run against archived data).
+DB_PATH = Path(os.environ.get("ACTORDB_DB", ROOT / "database" / "voice_actors.db"))
+SCHEMA_PATH = ROOT / "database" / "schema.sql"
+DASHBOARD_PATH = Path(os.environ.get("ACTORDB_DASHBOARD", ROOT / "database" / "dashboard.html"))
+VOICE_ROLES_PATH = ROOT / "data" / "voice_roles.json"
+WORK_METADATA_PATH = ROOT / "data" / "work_metadata.json"
+USER_FLAGS_PATH = ROOT / "data" / "user_flags.json"
+ACTOR_ALIASES_PATH = ROOT / "data" / "actor_aliases.json"
 
 
 def connect():
@@ -55,17 +63,18 @@ def get_or_create_work(cur, title, year=None, media_type="Other"):
     return cur.lastrowid
 
 
-def get_or_create_character(cur, name):
+def get_or_create_character(cur, name, disambiguation=""):
+    disambiguation = disambiguation or ""
     row = cur.execute(
-        "SELECT character_id FROM Characters WHERE canonical_name = ?",
-        (name,)
+        "SELECT character_id FROM Characters WHERE canonical_name = ? AND disambiguation = ?",
+        (name, disambiguation)
     ).fetchone()
     if row:
         return row[0]
 
     cur.execute(
-        "INSERT INTO Characters (canonical_name) VALUES (?)",
-        (name,)
+        "INSERT INTO Characters (canonical_name, disambiguation) VALUES (?, ?)",
+        (name, disambiguation)
     )
     return cur.lastrowid
 
@@ -106,7 +115,7 @@ def get_or_create_appearance(cur, character_id, work_id):
     return cur.lastrowid
 
 
-def get_or_create_studio(cur, name, country=None):
+def get_or_create_studio(cur, name):
     row = cur.execute(
         "SELECT studio_id FROM Studios WHERE name = ?",
         (name,)
@@ -114,10 +123,7 @@ def get_or_create_studio(cur, name, country=None):
     if row:
         return row[0]
 
-    cur.execute(
-        "INSERT INTO Studios (name, country) VALUES (?, ?)",
-        (name, country)
-    )
+    cur.execute("INSERT INTO Studios (name) VALUES (?)", (name,))
     return cur.lastrowid
 
 

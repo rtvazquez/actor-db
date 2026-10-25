@@ -43,7 +43,7 @@ def seed(conn):
     # Franchise + studio
     cur.execute("INSERT INTO Franchises (name) VALUES ('Test Saga')")
     franchise_id = cur.lastrowid
-    cur.execute("INSERT INTO Studios (name, country) VALUES ('Test Studio', 'JP')")
+    cur.execute("INSERT INTO Studios (name) VALUES ('Test Studio')")
     studio_id = cur.lastrowid
 
     # Two works, one a sequel of the other, same franchise, same studio

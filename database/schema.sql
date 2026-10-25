@@ -7,18 +7,32 @@ PRAGMA foreign_keys = ON;
 CREATE TABLE Actors (
     actor_id INTEGER PRIMARY KEY,
     name TEXT NOT NULL UNIQUE,
-    birth_year INTEGER
+    native_name TEXT, -- e.g. 石川由依
+    birth_year INTEGER,
+    favorite INTEGER NOT NULL DEFAULT 0 CHECK (favorite IN (0, 1))
+);
+
+-- Alternate spellings / romanizations / former names, so lookups resolve to one actor.
+CREATE TABLE ActorAliases (
+    alias_id INTEGER PRIMARY KEY,
+    actor_id INTEGER NOT NULL,
+    alias TEXT NOT NULL UNIQUE,
+
+    FOREIGN KEY (actor_id)
+        REFERENCES Actors(actor_id)
+        ON DELETE CASCADE
 );
 
 CREATE TABLE Franchises (
     franchise_id INTEGER PRIMARY KEY,
-    name TEXT NOT NULL UNIQUE
+    name TEXT NOT NULL UNIQUE,
+    favorite INTEGER NOT NULL DEFAULT 0 CHECK (favorite IN (0, 1))
 );
 
 CREATE TABLE Studios (
     studio_id INTEGER PRIMARY KEY,
     name TEXT NOT NULL UNIQUE,
-    country TEXT
+    favorite INTEGER NOT NULL DEFAULT 0 CHECK (favorite IN (0, 1))
 );
 
 CREATE TABLE Works (
@@ -32,6 +46,8 @@ CREATE TABLE Works (
     work_relationship_type TEXT
         CHECK (work_relationship_type IS NULL OR work_relationship_type IN
             ('Sequel', 'Prequel', 'Spin-off', 'Remake', 'Remaster', 'Side Story')),
+    favorite INTEGER NOT NULL DEFAULT 0 CHECK (favorite IN (0, 1)),
+    watched INTEGER NOT NULL DEFAULT 0 CHECK (watched IN (0, 1)), -- watched / played
 
     UNIQUE(title, release_year),
 
@@ -53,6 +69,7 @@ CREATE TABLE WorkStudios (
     studio_role TEXT NOT NULL
         CHECK (studio_role IN
             ('Developer', 'Publisher', 'Animation Studio', 'Localization Studio', 'Distributor', 'Production')),
+    source_url TEXT, -- where this studio credit was found; credits with no source are not kept
 
     PRIMARY KEY (work_id, studio_id, studio_role),
 
@@ -67,7 +84,13 @@ CREATE TABLE WorkStudios (
 
 CREATE TABLE Characters (
     character_id INTEGER PRIMARY KEY,
-    canonical_name TEXT NOT NULL
+    canonical_name TEXT NOT NULL,
+    -- Distinguishes same-named characters from different series, e.g. "Persona 5" vs "DC".
+    -- Empty string (not NULL) when no disambiguation is needed, so the UNIQUE works.
+    disambiguation TEXT NOT NULL DEFAULT '',
+    favorite INTEGER NOT NULL DEFAULT 0 CHECK (favorite IN (0, 1)),
+
+    UNIQUE(canonical_name, disambiguation)
 );
 
 -- Bridge: Character appears in a work
@@ -111,6 +134,8 @@ CREATE TABLE Performances (
         CHECK (performance_type IN ('Voice', 'Live-Action', 'Motion-Capture', 'Voice+Motion-Capture')),
     role_type TEXT
         CHECK (role_type IS NULL OR role_type IN ('Main', 'Supporting', 'Minor', 'Cameo')),
+    source_url TEXT, -- optional citation for where this credit was verified
+    verified INTEGER NOT NULL DEFAULT 0 CHECK (verified IN (0, 1)), -- 1 = checked against a source
 
     UNIQUE(appearance_id, actor_id, language_id, performance_type),
 

@@ -18,3 +18,11 @@ __pycache__/
 
 # Windows
 Thumbs.db
+
+# Node (tests/test_dashboard.js dev dependency)
+node_modules/
+# Local backups
+backups/
+
+# Research staging (agent output awaiting review/import)
+staging/

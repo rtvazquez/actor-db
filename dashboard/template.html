@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>actor_db dashboard</title>
+<style>
+/*__STYLE__*/</style>
+</head>
+<body>
+<h2 class="sr-only" style="position:absolute;left:-9999px;">actor_db dashboard: browse and search actors, works, characters, studios, and franchises</h2>
+
+<div id="sidebar">
+  <h1>actor_db</h1>
+  <div class="navtab active" data-view="actors_en">Actors (EN) <span class="count" id="count-actors_en"></span></div>
+  <div class="navtab" data-view="actors_ja">Actors (JA) <span class="count" id="count-actors_ja"></span></div>
+  <div class="navtab" data-view="works">Works <span class="count" id="count-works"></span></div>
+  <div class="navtab" data-view="characters">Characters <span class="count" id="count-characters"></span></div>
+  <div class="navtab" data-view="studios">Studios <span class="count" id="count-studios"></span></div>
+  <div class="navtab" data-view="franchises">Franchises <span class="count" id="count-franchises"></span></div>
+  <div class="navtab section-gap" data-view="compare">Compare</div>
+  <div class="navtab" data-view="stats">Stats</div>
+  <div class="navtab" data-view="todo">Needs work</div>
+</div>
+
+<div id="main">
+  <div id="searchbar">
+    <div id="searchRow">
+      <input type="text" id="search" placeholder="Search actors...">
+      <button id="searchbtn" class="primary-btn" onclick="runQuery()">Search</button>
+    </div>
+    <div id="filterBar">
+      <select id="mediaFilter"><option value="all">All media</option></select>
+      <select id="sortSelect"></select>
+      <span id="viewToggleWrap">
+        <button id="viewGridBtn" class="view-toggle-btn active" onclick="setViewMode('grid')" title="Tile grid">Grid</button>
+        <button id="viewListBtn" class="view-toggle-btn" onclick="setViewMode('list')" title="Dense list">List</button>
+      </span>
+      <span id="favOnlyWrap"><label><input type="checkbox" id="favOnly"> &#9733; Favorites only</label></span>
+      <span id="watchedOnlyWrap"><label><input type="checkbox" id="watchedOnly"> &#10003; Watched/played only</label></span>
+    </div>
+    <span id="searchhint"></span>
+  </div>
+  <div id="content"></div>
+</div>
+
+<script>
+/*__SCRIPT__*/</script>
+</body>
+</html>

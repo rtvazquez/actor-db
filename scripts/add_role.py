@@ -1,24 +1,20 @@
 """
 Interactive helper for adding a new actor/character/work/language entry
-to data/voice_roles.json (and, if the work is new, data/work_metadata.json)
-without hand-editing JSON.
-
-Run it, answer the prompts, and at the end it offers to rebuild the
-database and regenerate the dashboard for you.
+straight into the database (the source of truth), then exporting the JSON
+snapshot and optionally regenerating the dashboard.
 
     python scripts/add_role.py
 """
 
 import json
-import subprocess
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from utils import connect
+import db_ops
+import export_json
 
-VOICE_ROLES_PATH = Path("data/voice_roles.json")
-WORK_METADATA_PATH = Path("data/work_metadata.json")
 
 MEDIA_TYPES = ["Video Game", "Anime", "TV Series", "Movie", "OVA", "Other"]
 ROLE_TYPES = ["Main", "Supporting", "Minor", "Cameo"]
@@ -147,35 +143,26 @@ def main():
         print("Cancelled.")
         return
 
-    # Append to voice_roles.json
-    roles = json.loads(VOICE_ROLES_PATH.read_text(encoding="utf-8"))
-    roles.append(entry)
-    VOICE_ROLES_PATH.write_text(json.dumps(roles, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Appended to {VOICE_ROLES_PATH}")
+    conn = connect()
+    try:
+        pid = db_ops.add_performance(
+            conn, actor=actor, work=work, character=character, year=year,
+            language=language, media_type=media_type, role_type=role_type,
+            birth_year=birth_year, franchise=franchise, studios=studios,
+            parent_work=parent_work, relationship_type=relationship_type,
+        )
+    finally:
+        conn.close()
+    if pid is None:
+        print("That exact performance already exists -- nothing added.")
+        return
+    print("Added to the database.")
 
-    # Append/update work_metadata.json if this work is new and has metadata
-    if is_new_work and (franchise or studios or parent_work):
-        metadata = json.loads(WORK_METADATA_PATH.read_text(encoding="utf-8"))
-        meta_entry = {"title": work, "year": year}
-        if franchise:
-            meta_entry["franchise"] = franchise
-        if studios:
-            meta_entry["studios"] = studios
-        if parent_work:
-            meta_entry["parent_work"] = parent_work
-            meta_entry["relationship_type"] = relationship_type
-        metadata.append(meta_entry)
-        WORK_METADATA_PATH.write_text(json.dumps(metadata, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-        print(f"Appended to {WORK_METADATA_PATH}")
-
-    if ask_yes_no("\nRebuild the database now?", default_yes=True):
-        subprocess.run([sys.executable, "scripts/create_db.py"], check=True)
-        subprocess.run([sys.executable, "scripts/import_data.py"], check=True)
-        if ask_yes_no("Regenerate the dashboard too?", default_yes=True):
-            subprocess.run([sys.executable, "scripts/generate_dashboard.py"], check=True)
-        print("\nDone.")
-    else:
-        print("\nSkipped rebuild -- run `python scripts/create_db.py && python scripts/import_data.py` when ready.")
+    export_json.run()
+    if ask_yes_no("Regenerate the dashboard now?", default_yes=True):
+        import generate_dashboard
+        generate_dashboard.generate()
+    print("\nDone.")
 
 
 if __name__ == "__main__":

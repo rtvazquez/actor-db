@@ -1,201 +1,132 @@
 [
   {
-    "title": "The Last of Us",
-    "year": 2013,
-    "franchise": "The Last of Us",
+    "title": "Adventure Time",
+    "year": 2010,
+    "media_type": "TV Series",
     "studios": [
       {
-        "name": "Naughty Dog",
-        "role": "Developer"
-      },
-      {
-        "name": "Sony Interactive Entertainment",
-        "role": "Publisher"
+        "name": "Cartoon Network Studios",
+        "role": "Production",
+        "source": "https://en.wikipedia.org/wiki/Adventure_Time"
       }
     ]
   },
   {
-    "title": "The Last of Us Part II",
-    "year": 2020,
-    "franchise": "The Last of Us",
+    "title": "Arcane",
+    "year": 2021,
+    "media_type": "TV Series",
     "studios": [
       {
-        "name": "Naughty Dog",
-        "role": "Developer"
+        "name": "Fortiche",
+        "role": "Animation Studio",
+        "source": "https://en.wikipedia.org/wiki/Arcane_(TV_series)"
       },
       {
-        "name": "Sony Interactive Entertainment",
-        "role": "Publisher"
+        "name": "Netflix",
+        "role": "Distributor",
+        "source": "https://en.wikipedia.org/wiki/Arcane_(TV_series)"
+      },
+      {
+        "name": "Riot Games",
+        "role": "Production",
+        "source": "https://en.wikipedia.org/wiki/Arcane_(TV_series)"
       }
-    ],
+    ]
+  },
+  {
+    "title": "Avatar: The Last Airbender",
+    "year": 2005,
+    "media_type": "TV Series",
+    "franchise": "Avatar"
+  },
+  {
+    "title": "Berserk",
+    "year": 1997,
+    "media_type": "Anime"
+  },
+  {
+    "title": "BoJack Horseman",
+    "year": 2014,
+    "media_type": "TV Series"
+  },
+  {
+    "title": "Chainsaw Man",
+    "year": 2022,
+    "media_type": "Anime",
+    "franchise": "Chainsaw Man"
+  },
+  {
+    "title": "Chainsaw Man - The Movie: Reze Arc",
+    "year": 2025,
+    "media_type": "Movie",
+    "franchise": "Chainsaw Man",
     "parent_work": {
-      "title": "The Last of Us",
-      "year": 2013
+      "title": "Chainsaw Man",
+      "year": 2022
     },
     "relationship_type": "Sequel"
   },
   {
-    "title": "Persona 3",
-    "year": 2006,
-    "franchise": "Persona",
-    "studios": [
-      {
-        "name": "Atlus",
-        "role": "Developer"
-      },
-      {
-        "name": "Atlus",
-        "role": "Publisher"
-      }
-    ]
+    "title": "Cyberpunk 2077",
+    "year": 2020,
+    "media_type": "Video Game",
+    "franchise": "Cyberpunk"
   },
   {
-    "title": "Persona 3 Reload",
-    "year": 2024,
-    "franchise": "Persona",
+    "title": "Cyberpunk 2077: Phantom Liberty",
+    "year": 2023,
+    "media_type": "Video Game",
+    "franchise": "Cyberpunk",
+    "parent_work": {
+      "title": "Cyberpunk 2077",
+      "year": 2020
+    },
+    "relationship_type": "Side Story"
+  },
+  {
+    "title": "Cyberpunk: Edgerunners",
+    "year": 2022,
+    "media_type": "Anime",
+    "franchise": "Cyberpunk",
+    "parent_work": {
+      "title": "Cyberpunk 2077",
+      "year": 2020
+    },
+    "relationship_type": "Spin-off"
+  },
+  {
+    "title": "Cyberpunk: Edgerunners 2",
+    "year": 2026,
+    "media_type": "Anime",
+    "franchise": "Cyberpunk",
     "studios": [
       {
-        "name": "Atlus",
-        "role": "Developer"
-      },
-      {
-        "name": "Atlus",
-        "role": "Publisher"
+        "name": "Studio Trigger",
+        "role": "Animation Studio",
+        "source": "https://en.wikipedia.org/wiki/Cyberpunk:_Edgerunners_2"
       }
     ],
     "parent_work": {
-      "title": "Persona 3",
-      "year": 2006
+      "title": "Cyberpunk: Edgerunners",
+      "year": 2022
     },
-    "relationship_type": "Remake"
-  },
-  {
-    "title": "Persona 4 Golden",
-    "year": 2012,
-    "franchise": "Persona",
-    "studios": [
-      {
-        "name": "Atlus",
-        "role": "Developer"
-      },
-      {
-        "name": "Atlus",
-        "role": "Publisher"
-      }
-    ]
-  },
-  {
-    "title": "Persona 5 Royal",
-    "year": 2019,
-    "franchise": "Persona",
-    "studios": [
-      {
-        "name": "Atlus",
-        "role": "Developer"
-      },
-      {
-        "name": "Atlus",
-        "role": "Publisher"
-      }
-    ]
-  },
-  {
-    "title": "Marvel's Spider-Man",
-    "year": 2018,
-    "studios": [
-      {
-        "name": "Insomniac Games",
-        "role": "Developer"
-      },
-      {
-        "name": "Sony Interactive Entertainment",
-        "role": "Publisher"
-      }
-    ]
-  },
-  {
-    "title": "Uncharted 4: A Thief's End",
-    "year": 2016,
-    "studios": [
-      {
-        "name": "Naughty Dog",
-        "role": "Developer"
-      },
-      {
-        "name": "Sony Interactive Entertainment",
-        "role": "Publisher"
-      }
-    ]
-  },
-  {
-    "title": "Assassin's Creed II",
-    "year": 2009,
-    "studios": [
-      {
-        "name": "Ubisoft Montreal",
-        "role": "Developer"
-      },
-      {
-        "name": "Ubisoft",
-        "role": "Publisher"
-      }
-    ]
-  },
-  {
-    "title": "Metal Gear Solid",
-    "year": 1998,
-    "studios": [
-      {
-        "name": "Konami Computer Entertainment Japan",
-        "role": "Developer"
-      },
-      {
-        "name": "Konami",
-        "role": "Publisher"
-      }
-    ]
-  },
-  {
-    "title": "Mass Effect",
-    "year": 2007,
-    "studios": [
-      {
-        "name": "BioWare",
-        "role": "Developer"
-      },
-      {
-        "name": "Microsoft Game Studios",
-        "role": "Publisher"
-      }
-    ]
-  },
-  {
-    "title": "Danganronpa: Trigger Happy Havoc",
-    "year": 2010,
-    "franchise": "Danganronpa",
-    "studios": [
-      {
-        "name": "Spike Chunsoft",
-        "role": "Developer"
-      },
-      {
-        "name": "Spike Chunsoft",
-        "role": "Publisher"
-      }
-    ]
+    "relationship_type": "Sequel"
   },
   {
     "title": "Danganronpa 2: Goodbye Despair",
     "year": 2012,
+    "media_type": "Video Game",
     "franchise": "Danganronpa",
     "studios": [
       {
         "name": "Spike Chunsoft",
-        "role": "Developer"
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Danganronpa_2:_Goodbye_Despair"
       },
       {
         "name": "Spike Chunsoft",
-        "role": "Publisher"
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Danganronpa_2:_Goodbye_Despair"
       }
     ],
     "parent_work": {
@@ -205,156 +136,43 @@
     "relationship_type": "Sequel"
   },
   {
-    "title": "Danganronpa 3",
-    "year": 2016,
+    "title": "Danganronpa 2x2",
+    "year": 2027,
+    "media_type": "Video Game",
     "franchise": "Danganronpa",
     "studios": [
       {
-        "name": "Lerche",
-        "role": "Animation Studio"
-      }
-    ],
-    "parent_work": {
-      "title": "Danganronpa 2: Goodbye Despair",
-      "year": 2012
-    },
-    "relationship_type": "Sequel"
-  },
-  {
-    "title": "Bleach",
-    "year": 2004,
-    "studios": [
+        "name": "Gemdrops",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Danganronpa_2%C3%972"
+      },
       {
-        "name": "Studio Pierrot",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Sword Art Online",
-    "year": 2012,
-    "studios": [
+        "name": "Too Kyo Games",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Danganronpa_2%C3%972"
+      },
       {
-        "name": "A-1 Pictures",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Attack on Titan",
-    "year": 2013,
-    "studios": [
-      {
-        "name": "Wit Studio",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Cowboy Bebop",
-    "year": 1998,
-    "studios": [
-      {
-        "name": "Sunrise",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Jujutsu Kaisen",
-    "year": 2020,
-    "studios": [
-      {
-        "name": "MAPPA",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Demon Slayer",
-    "year": 2019,
-    "studios": [
-      {
-        "name": "ufotable",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Mob Psycho 100",
-    "year": 2016,
-    "studios": [
-      {
-        "name": "Bones",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Death Note",
-    "year": 2006,
-    "studios": [
-      {
-        "name": "Madhouse",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Steins;Gate",
-    "year": 2011,
-    "studios": [
-      {
-        "name": "White Fox",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Persona 4 the Animation",
-    "year": 2011,
-    "franchise": "Persona",
-    "studios": [
-      {
-        "name": "AIC A.S.T.A.",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Persona 5 the Animation",
-    "year": 2018,
-    "franchise": "Persona",
-    "studios": [
-      {
-        "name": "CloverWorks",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Danganronpa: The Animation",
-    "year": 2013,
-    "franchise": "Danganronpa",
-    "studios": [
-      {
-        "name": "Lerche",
-        "role": "Animation Studio"
+        "name": "Spike Chunsoft",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Danganronpa_2%C3%972"
       }
     ]
   },
   {
     "title": "Danganronpa V3: Killing Harmony",
     "year": 2017,
+    "media_type": "Video Game",
     "franchise": "Danganronpa",
     "studios": [
       {
         "name": "Spike Chunsoft",
-        "role": "Developer"
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Danganronpa_V3:_Killing_Harmony"
       },
       {
         "name": "Spike Chunsoft",
-        "role": "Publisher"
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Danganronpa_V3:_Killing_Harmony"
       }
     ],
     "parent_work": {
@@ -364,17 +182,38 @@
     "relationship_type": "Sequel"
   },
   {
-    "title": "Danganronpa: Ultra Despair Girls",
-    "year": 2015,
+    "title": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "media_type": "Video Game",
     "franchise": "Danganronpa",
     "studios": [
       {
         "name": "Spike Chunsoft",
-        "role": "Developer"
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Danganronpa:_Trigger_Happy_Havoc"
       },
       {
         "name": "Spike Chunsoft",
-        "role": "Publisher"
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Danganronpa:_Trigger_Happy_Havoc"
+      }
+    ]
+  },
+  {
+    "title": "Danganronpa: Ultra Despair Girls",
+    "year": 2015,
+    "media_type": "Video Game",
+    "franchise": "Danganronpa",
+    "studios": [
+      {
+        "name": "Spike Chunsoft",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Danganronpa_Another_Episode:_Ultra_Despair_Girls"
+      },
+      {
+        "name": "Spike Chunsoft",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Danganronpa_Another_Episode:_Ultra_Despair_Girls"
       }
     ],
     "parent_work": {
@@ -384,630 +223,204 @@
     "relationship_type": "Side Story"
   },
   {
-    "title": "Dandadan",
-    "year": 2024,
+    "title": "Death Stranding",
+    "year": 2019,
+    "media_type": "Video Game",
+    "franchise": "Death Stranding",
     "studios": [
       {
-        "name": "Science SARU",
-        "role": "Animation Studio"
+        "name": "Kojima Productions",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Death_Stranding"
+      },
+      {
+        "name": "505 Games",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Death_Stranding"
+      },
+      {
+        "name": "Sony Interactive Entertainment",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Death_Stranding"
       }
     ]
   },
   {
-    "title": "JoJo's Bizarre Adventure: Stardust Crusaders",
-    "year": 2014,
+    "title": "Death Stranding 2: On the Beach",
+    "year": 2025,
+    "media_type": "Video Game",
+    "franchise": "Death Stranding",
     "studios": [
       {
-        "name": "David Production",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Frieren: Beyond Journey's End",
-    "year": 2023,
-    "studios": [
+        "name": "Kojima Productions",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Death_Stranding_2:_On_the_Beach"
+      },
       {
-        "name": "Madhouse",
-        "role": "Animation Studio"
+        "name": "Sony Interactive Entertainment",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Death_Stranding_2:_On_the_Beach"
       }
-    ]
+    ],
+    "parent_work": {
+      "title": "Death Stranding",
+      "year": 2019
+    },
+    "relationship_type": "Sequel"
   },
   {
     "title": "Delicious in Dungeon",
     "year": 2024,
+    "media_type": "Anime"
+  },
+  {
+    "title": "Ghost of Tsushima",
+    "year": 2020,
+    "media_type": "Video Game",
+    "franchise": "Ghost"
+  },
+  {
+    "title": "Ghost of Yōtei",
+    "year": 2025,
+    "media_type": "Video Game",
+    "franchise": "Ghost",
+    "parent_work": {
+      "title": "Ghost of Tsushima",
+      "year": 2020
+    },
+    "relationship_type": "Spin-off"
+  },
+  {
+    "title": "God of War",
+    "year": 2005,
+    "media_type": "Video Game",
+    "franchise": "God of War",
     "studios": [
       {
-        "name": "Studio Trigger",
-        "role": "Animation Studio"
+        "name": "Santa Monica Studio",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/God_of_War_(2005_video_game)"
+      },
+      {
+        "name": "Sony Computer Entertainment",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/God_of_War_(2005_video_game)"
+      }
+    ]
+  },
+  {
+    "title": "God of War",
+    "year": 2018,
+    "media_type": "Video Game",
+    "franchise": "God of War",
+    "studios": [
+      {
+        "name": "Santa Monica Studio",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)"
+      },
+      {
+        "name": "Sony Interactive Entertainment",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)"
+      }
+    ],
+    "parent_work": {
+      "title": "God of War III",
+      "year": 2010
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "God of War II",
+    "year": 2007,
+    "media_type": "Video Game",
+    "franchise": "God of War",
+    "studios": [
+      {
+        "name": "Santa Monica Studio",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/God_of_War_II"
+      },
+      {
+        "name": "Sony Computer Entertainment",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/God_of_War_II"
+      }
+    ],
+    "parent_work": {
+      "title": "God of War",
+      "year": 2005
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "God of War III",
+    "year": 2010,
+    "media_type": "Video Game",
+    "franchise": "God of War",
+    "studios": [
+      {
+        "name": "Santa Monica Studio",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/God_of_War_III"
+      },
+      {
+        "name": "Sony Computer Entertainment",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/God_of_War_III"
+      }
+    ],
+    "parent_work": {
+      "title": "God of War II",
+      "year": 2007
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "God of War Ragnarök",
+    "year": 2022,
+    "media_type": "Video Game",
+    "franchise": "God of War",
+    "studios": [
+      {
+        "name": "Santa Monica Studio",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/God_of_War_Ragnar%C3%B6k"
+      },
+      {
+        "name": "Sony Interactive Entertainment",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/God_of_War_Ragnar%C3%B6k"
+      }
+    ],
+    "parent_work": {
+      "title": "God of War",
+      "year": 2018
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Gravity Falls",
+    "year": 2012,
+    "media_type": "TV Series",
+    "studios": [
+      {
+        "name": "Disney Television Animation",
+        "role": "Production",
+        "source": "https://en.wikipedia.org/wiki/Gravity_Falls"
       }
     ]
   },
   {
     "title": "Gurren Lagann",
     "year": 2007,
-    "studios": [
-      {
-        "name": "Gainax",
-        "role": "Animation Studio"
-      }
-    ]
+    "media_type": "Anime"
   },
   {
-    "title": "Chainsaw Man",
-    "year": 2022,
-    "studios": [
-      {
-        "name": "MAPPA",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Cyberpunk: Edgerunners",
-    "year": 2022,
-    "franchise": "Cyberpunk",
-    "studios": [
-      {
-        "name": "Studio Trigger",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Cyberpunk 2077",
-    "year": 2020,
-    "franchise": "Cyberpunk",
-    "studios": [
-      {
-        "name": "CD Projekt Red",
-        "role": "Developer"
-      },
-      {
-        "name": "CD Projekt",
-        "role": "Publisher"
-      }
-    ]
-  },
-  {
-    "title": "Red Dead Redemption 2",
-    "year": 2018,
-    "studios": [
-      {
-        "name": "Rockstar Games",
-        "role": "Developer"
-      },
-      {
-        "name": "Rockstar Games",
-        "role": "Publisher"
-      }
-    ]
-  },
-  {
-    "title": "Yakuza: Like a Dragon",
-    "year": 2020,
-    "studios": [
-      {
-        "name": "Ryu Ga Gotoku Studio",
-        "role": "Developer"
-      },
-      {
-        "name": "Sega",
-        "role": "Publisher"
-      }
-    ]
-  },
-  {
-    "title": "X-Men '97",
+    "title": "Helldivers 2",
     "year": 2024,
-    "studios": [
-      {
-        "name": "Marvel Studios Animation",
-        "role": "Production"
-      },
-      {
-        "name": "Studio Mir",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Marvel Rivals",
-    "year": 2024,
-    "studios": [
-      {
-        "name": "NetEase Games",
-        "role": "Developer"
-      },
-      {
-        "name": "NetEase Games",
-        "role": "Publisher"
-      }
-    ]
-  },
-  {
-    "title": "Hunter x Hunter",
-    "year": 2011,
-    "studios": [
-      {
-        "name": "Madhouse",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Hajime no Ippo",
-    "year": 2004,
-    "studios": [
-      {
-        "name": "Madhouse",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Monster",
-    "year": 2004,
-    "studios": [
-      {
-        "name": "Madhouse",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Hellsing Ultimate",
-    "year": 2006,
-    "studios": [
-      {
-        "name": "Madhouse",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Overlord",
-    "year": 2015,
-    "studios": [
-      {
-        "name": "Madhouse",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Orb: On the Movements of the Earth",
-    "year": 2024,
-    "studios": [
-      {
-        "name": "Madhouse",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Parasyte -the maxim-",
-    "year": 2014,
-    "studios": [
-      {
-        "name": "Madhouse",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "The Tatami Galaxy",
-    "year": 2010,
-    "studios": [
-      {
-        "name": "Madhouse",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Perfect Blue",
-    "year": 1997,
-    "studios": [
-      {
-        "name": "Madhouse",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Paprika",
-    "year": 2006,
-    "studios": [
-      {
-        "name": "Madhouse",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Trigun",
-    "year": 1998,
-    "studios": [
-      {
-        "name": "Madhouse",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "One-Punch Man",
-    "year": 2015,
-    "studios": [
-      {
-        "name": "Madhouse",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Sonny Boy",
-    "year": 2021,
-    "studios": [
-      {
-        "name": "Madhouse",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Redline",
-    "year": 2009,
-    "studios": [
-      {
-        "name": "Madhouse",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Kill la Kill",
-    "year": 2013,
-    "studios": [
-      {
-        "name": "Studio Trigger",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Neon Genesis Evangelion",
-    "year": 1995,
-    "studios": [
-      {
-        "name": "Gainax",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Hell's Paradise",
-    "year": 2023,
-    "studios": [
-      {
-        "name": "MAPPA",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Dororo",
-    "year": 2019,
-    "studios": [
-      {
-        "name": "MAPPA",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Banana Fish",
-    "year": 2018,
-    "studios": [
-      {
-        "name": "MAPPA",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Vinland Saga",
-    "year": 2019,
-    "studios": [
-      {
-        "name": "Wit Studio",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Vinland Saga Season 2",
-    "year": 2023,
-    "studios": [
-      {
-        "name": "MAPPA",
-        "role": "Animation Studio"
-      }
-    ],
-    "parent_work": {
-      "title": "Vinland Saga",
-      "year": 2019
-    },
-    "relationship_type": "Sequel"
-  },
-  {
-    "title": "Attack on Titan: The Final Season",
-    "year": 2020,
-    "studios": [
-      {
-        "name": "MAPPA",
-        "role": "Animation Studio"
-      }
-    ],
-    "parent_work": {
-      "title": "Attack on Titan",
-      "year": 2013
-    },
-    "relationship_type": "Sequel"
-  },
-  {
-    "title": "Great Pretender",
-    "year": 2020,
-    "studios": [
-      {
-        "name": "Wit Studio",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Spy x Family",
-    "year": 2022,
-    "studios": [
-      {
-        "name": "Wit Studio",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Fullmetal Alchemist",
-    "year": 2003,
-    "studios": [
-      {
-        "name": "Bones",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Fullmetal Alchemist: Brotherhood",
-    "year": 2009,
-    "studios": [
-      {
-        "name": "Bones",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Soul Eater",
-    "year": 2008,
-    "studios": [
-      {
-        "name": "Bones",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "My Hero Academia",
-    "year": 2016,
-    "studios": [
-      {
-        "name": "Bones",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Space Dandy",
-    "year": 2014,
-    "studios": [
-      {
-        "name": "Bones",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Nausicaa of the Valley of the Wind",
-    "year": 1984,
-    "studios": [
-      {
-        "name": "Studio Ghibli",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Castle in the Sky",
-    "year": 1986,
-    "studios": [
-      {
-        "name": "Studio Ghibli",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Grave of the Fireflies",
-    "year": 1988,
-    "studios": [
-      {
-        "name": "Studio Ghibli",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Kiki's Delivery Service",
-    "year": 1989,
-    "studios": [
-      {
-        "name": "Studio Ghibli",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Princess Mononoke",
-    "year": 1997,
-    "studios": [
-      {
-        "name": "Studio Ghibli",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Howl's Moving Castle",
-    "year": 2004,
-    "studios": [
-      {
-        "name": "Studio Ghibli",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Ponyo",
-    "year": 2008,
-    "studios": [
-      {
-        "name": "Studio Ghibli",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "The Boy and the Heron",
-    "year": 2023,
-    "studios": [
-      {
-        "name": "Studio Ghibli",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "The Wind Rises",
-    "year": 2013,
-    "studios": [
-      {
-        "name": "Studio Ghibli",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Spirited Away",
-    "year": 2001,
-    "studios": [
-      {
-        "name": "Studio Ghibli",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Porco Rosso",
-    "year": 1992,
-    "studios": [
-      {
-        "name": "Studio Ghibli",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "My Neighbor Totoro",
-    "year": 1988,
-    "studios": [
-      {
-        "name": "Studio Ghibli",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Ping Pong the Animation",
-    "year": 2014,
-    "studios": [
-      {
-        "name": "Science SARU",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Devilman Crybaby",
-    "year": 2018,
-    "studios": [
-      {
-        "name": "Science SARU",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Violet Evergarden",
-    "year": 2018,
-    "media_type": "Anime",
-    "studios": [
-      {
-        "name": "Kyoto Animation",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "K-On!",
-    "year": 2009,
-    "media_type": "Anime",
-    "studios": [
-      {
-        "name": "Kyoto Animation",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "Nichijou",
-    "year": 2011,
-    "media_type": "Anime",
-    "studios": [
-      {
-        "name": "Kyoto Animation",
-        "role": "Animation Studio"
-      }
-    ]
-  },
-  {
-    "title": "A Silent Voice",
-    "year": 2016,
-    "media_type": "Movie",
-    "studios": [
-      {
-        "name": "Kyoto Animation",
-        "role": "Animation Studio"
-      }
-    ]
+    "media_type": "Video Game"
   },
   {
     "title": "Invincible",
@@ -1015,69 +428,516 @@
     "media_type": "TV Series",
     "studios": [
       {
-        "name": "Skybound Entertainment",
-        "role": "Production"
+        "name": "Amazon Studios",
+        "role": "Distributor",
+        "source": "https://en.wikipedia.org/wiki/Invincible_(TV_series)"
       },
       {
-        "name": "Amazon Studios",
-        "role": "Distributor"
+        "name": "Skybound Entertainment",
+        "role": "Production",
+        "source": "https://en.wikipedia.org/wiki/Invincible_(TV_series)"
       }
     ]
   },
   {
-    "title": "The Spectacular Spider-Man",
-    "year": 2008,
-    "media_type": "TV Series",
+    "title": "JoJo's Bizarre Adventure: Battle Tendency",
+    "year": 2012,
+    "media_type": "Anime",
+    "franchise": "JoJo's Bizarre Adventure",
     "studios": [
       {
-        "name": "Sony Pictures Television",
-        "role": "Production"
+        "name": "David Production",
+        "role": "Animation Studio",
+        "source": "https://www.behindthevoiceactors.com/tv-shows/JoJos-Bizarre-Adventure-2012/"
       }
-    ]
+    ],
+    "parent_work": {
+      "title": "JoJo's Bizarre Adventure: Phantom Blood",
+      "year": 2012
+    },
+    "relationship_type": "Sequel"
   },
   {
-    "title": "Green Lantern: The Animated Series",
-    "year": 2011,
-    "media_type": "TV Series",
-    "studios": [
-      {
-        "name": "Warner Bros. Animation",
-        "role": "Production"
-      }
-    ]
-  },
-  {
-    "title": "Metal Gear Solid 3: Snake Eater",
-    "year": 2004,
-    "media_type": "Video Game",
-    "studios": [
-      {
-        "name": "Konami",
-        "role": "Developer"
-      }
-    ]
-  },
-  {
-    "title": "Voltron: Legendary Defender",
+    "title": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
     "year": 2016,
-    "media_type": "TV Series",
+    "media_type": "Anime",
+    "franchise": "JoJo's Bizarre Adventure",
     "studios": [
       {
-        "name": "Studio Mir",
-        "role": "Animation Studio"
+        "name": "David Production",
+        "role": "Animation Studio",
+        "source": "https://en.wikipedia.org/wiki/JoJo's_Bizarre_Adventure_(TV_series)"
+      }
+    ],
+    "parent_work": {
+      "title": "JoJo's Bizarre Adventure: Stardust Crusaders",
+      "year": 2014
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "JoJo's Bizarre Adventure: Golden Wind",
+    "year": 2018,
+    "media_type": "Anime",
+    "franchise": "JoJo's Bizarre Adventure",
+    "studios": [
+      {
+        "name": "David Production",
+        "role": "Animation Studio",
+        "source": "https://en.wikipedia.org/wiki/JoJo's_Bizarre_Adventure_(TV_series)"
+      }
+    ],
+    "parent_work": {
+      "title": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
+      "year": 2016
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "JoJo's Bizarre Adventure: Phantom Blood",
+    "year": 2012,
+    "media_type": "Anime",
+    "franchise": "JoJo's Bizarre Adventure",
+    "studios": [
+      {
+        "name": "David Production",
+        "role": "Animation Studio",
+        "source": "https://www.behindthevoiceactors.com/tv-shows/JoJos-Bizarre-Adventure-2012/"
       }
     ]
   },
   {
-    "title": "Superman: The Animated Series",
-    "year": 1996,
+    "title": "JoJo's Bizarre Adventure: Stardust Crusaders",
+    "year": 2014,
+    "media_type": "Anime",
+    "franchise": "JoJo's Bizarre Adventure",
+    "studios": [
+      {
+        "name": "David Production",
+        "role": "Animation Studio",
+        "source": "https://en.wikipedia.org/wiki/JoJo's_Bizarre_Adventure:_Stardust_Crusaders"
+      }
+    ],
+    "parent_work": {
+      "title": "JoJo's Bizarre Adventure: Battle Tendency",
+      "year": 2012
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "JoJo's Bizarre Adventure: Steel Ball Run",
+    "year": 2026,
+    "media_type": "Anime",
+    "franchise": "JoJo's Bizarre Adventure",
+    "studios": [
+      {
+        "name": "David Production",
+        "role": "Animation Studio",
+        "source": "https://jojowiki.com/Steel_Ball_Run_(Anime)"
+      },
+      {
+        "name": "Netflix",
+        "role": "Distributor",
+        "source": "https://jojowiki.com/Steel_Ball_Run_(Anime)"
+      }
+    ],
+    "parent_work": {
+      "title": "JoJo's Bizarre Adventure: Stone Ocean",
+      "year": 2021
+    },
+    "relationship_type": "Spin-off"
+  },
+  {
+    "title": "JoJo's Bizarre Adventure: Stone Ocean",
+    "year": 2021,
+    "media_type": "Anime",
+    "franchise": "JoJo's Bizarre Adventure",
+    "studios": [
+      {
+        "name": "David Production",
+        "role": "Animation Studio",
+        "source": "https://en.wikipedia.org/wiki/JoJo%27s_Bizarre_Adventure:_Stone_Ocean"
+      }
+    ],
+    "parent_work": {
+      "title": "JoJo's Bizarre Adventure: Golden Wind",
+      "year": 2018
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Judgment",
+    "year": 2018,
+    "media_type": "Video Game",
+    "franchise": "Judgment",
+    "studios": [
+      {
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Judgment_(video_game)"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Judgment_(video_game)"
+      }
+    ]
+  },
+  {
+    "title": "Jujutsu Kaisen",
+    "year": 2020,
+    "media_type": "Anime",
+    "franchise": "Jujutsu Kaisen"
+  },
+  {
+    "title": "Jujutsu Kaisen Season 2",
+    "year": 2023,
+    "media_type": "Anime",
+    "franchise": "Jujutsu Kaisen",
+    "parent_work": {
+      "title": "Jujutsu Kaisen",
+      "year": 2020
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Jujutsu Kaisen Season 3",
+    "year": 2026,
+    "media_type": "Anime",
+    "franchise": "Jujutsu Kaisen",
+    "parent_work": {
+      "title": "Jujutsu Kaisen Season 2",
+      "year": 2023
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Like a Dragon Gaiden: The Man Who Erased His Name",
+    "year": 2023,
+    "media_type": "Video Game",
+    "franchise": "Yakuza",
+    "studios": [
+      {
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Like_a_Dragon_Gaiden:_The_Man_Who_Erased_His_Name"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Like_a_Dragon_Gaiden:_The_Man_Who_Erased_His_Name"
+      }
+    ],
+    "parent_work": {
+      "title": "Yakuza: Like a Dragon",
+      "year": 2020
+    },
+    "relationship_type": "Side Story"
+  },
+  {
+    "title": "Like a Dragon: Infinite Wealth",
+    "year": 2024,
+    "media_type": "Video Game",
+    "franchise": "Yakuza",
+    "studios": [
+      {
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Like_a_Dragon:_Infinite_Wealth"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Like_a_Dragon:_Infinite_Wealth"
+      }
+    ],
+    "parent_work": {
+      "title": "Yakuza: Like a Dragon",
+      "year": 2020
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Lost Judgment",
+    "year": 2021,
+    "media_type": "Video Game",
+    "franchise": "Judgment",
+    "studios": [
+      {
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Lost_Judgment"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Lost_Judgment"
+      }
+    ],
+    "parent_work": {
+      "title": "Judgment",
+      "year": 2018
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Neon Genesis Evangelion",
+    "year": 1995,
+    "media_type": "Anime",
+    "franchise": "Evangelion"
+  },
+  {
+    "title": "Persona 3 Portable",
+    "year": 2009,
+    "media_type": "Video Game",
+    "franchise": "Persona",
+    "studios": [
+      {
+        "name": "Atlus",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Persona_3_Portable"
+      },
+      {
+        "name": "Atlus",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Persona_3_Portable"
+      }
+    ]
+  },
+  {
+    "title": "Persona 3 Reload",
+    "year": 2024,
+    "media_type": "Video Game",
+    "franchise": "Persona",
+    "studios": [
+      {
+        "name": "Atlus",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Persona_3_Reload"
+      },
+      {
+        "name": "Atlus",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Persona_3_Reload"
+      }
+    ]
+  },
+  {
+    "title": "Persona 3: Dancing in Moonlight",
+    "year": 2018,
+    "media_type": "Video Game",
+    "franchise": "Persona",
+    "studios": [
+      {
+        "name": "Atlus",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Persona_3:_Dancing_in_Moonlight"
+      },
+      {
+        "name": "Atlus",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Persona_3:_Dancing_in_Moonlight"
+      }
+    ],
+    "parent_work": {
+      "title": "Persona 3 Portable",
+      "year": 2009
+    },
+    "relationship_type": "Spin-off"
+  },
+  {
+    "title": "Persona 4 Golden",
+    "year": 2012,
+    "media_type": "Video Game",
+    "franchise": "Persona",
+    "studios": [
+      {
+        "name": "Atlus",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Persona_4_Golden"
+      },
+      {
+        "name": "Atlus",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Persona_4_Golden"
+      }
+    ]
+  },
+  {
+    "title": "Persona 4 Revival",
+    "year": 2027,
+    "media_type": "Video Game",
+    "franchise": "Persona",
+    "studios": [
+      {
+        "name": "Atlus",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Persona_4_Revival"
+      },
+      {
+        "name": "Atlus",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Persona_4_Revival"
+      }
+    ],
+    "parent_work": {
+      "title": "Persona 4 Golden",
+      "year": 2012
+    },
+    "relationship_type": "Remake"
+  },
+  {
+    "title": "Persona 4: Dancing All Night",
+    "year": 2015,
+    "media_type": "Video Game",
+    "franchise": "Persona",
+    "studios": [
+      {
+        "name": "Atlus",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Persona_4:_Dancing_All_Night"
+      },
+      {
+        "name": "Atlus",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Persona_4:_Dancing_All_Night"
+      }
+    ],
+    "parent_work": {
+      "title": "Persona 4 Golden",
+      "year": 2012
+    },
+    "relationship_type": "Spin-off"
+  },
+  {
+    "title": "Persona 5",
+    "year": 2016,
+    "media_type": "Video Game",
+    "franchise": "Persona",
+    "studios": [
+      {
+        "name": "Atlus",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Persona_5"
+      },
+      {
+        "name": "Atlus",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Persona_5"
+      }
+    ]
+  },
+  {
+    "title": "Persona 5 Royal",
+    "year": 2019,
+    "media_type": "Video Game",
+    "franchise": "Persona",
+    "parent_work": {
+      "title": "Persona 5",
+      "year": 2016
+    },
+    "relationship_type": "Remaster"
+  },
+  {
+    "title": "Persona 5 Strikers",
+    "year": 2020,
+    "media_type": "Video Game",
+    "franchise": "Persona",
+    "studios": [
+      {
+        "name": "Omega Force",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Persona_5_Strikers"
+      },
+      {
+        "name": "P-Studio",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Persona_5_Strikers"
+      },
+      {
+        "name": "Atlus",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Persona_5_Strikers"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Persona_5_Strikers"
+      }
+    ],
+    "parent_work": {
+      "title": "Persona 5 Royal",
+      "year": 2019
+    },
+    "relationship_type": "Spin-off"
+  },
+  {
+    "title": "Persona 5 Tactica",
+    "year": 2023,
+    "media_type": "Video Game",
+    "franchise": "Persona",
+    "studios": [
+      {
+        "name": "Atlus",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Persona_5_Tactica"
+      },
+      {
+        "name": "Atlus",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Persona_5_Tactica"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Persona_5_Tactica"
+      }
+    ],
+    "parent_work": {
+      "title": "Persona 5 Royal",
+      "year": 2019
+    },
+    "relationship_type": "Spin-off"
+  },
+  {
+    "title": "Persona 5: Dancing in Starlight",
+    "year": 2018,
+    "media_type": "Video Game",
+    "franchise": "Persona",
+    "studios": [
+      {
+        "name": "Atlus",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Persona_5:_Dancing_in_Starlight"
+      },
+      {
+        "name": "Atlus",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Persona_5:_Dancing_in_Starlight"
+      }
+    ],
+    "parent_work": {
+      "title": "Persona 5",
+      "year": 2016
+    },
+    "relationship_type": "Spin-off"
+  },
+  {
+    "title": "Regular Show",
+    "year": 2010,
     "media_type": "TV Series",
     "studios": [
       {
-        "name": "Warner Bros. Animation",
-        "role": "Production"
+        "name": "Cartoon Network Studios",
+        "role": "Production",
+        "source": "https://en.wikipedia.org/wiki/Regular_Show"
       }
     ]
+  },
+  {
+    "title": "Smiling Friends",
+    "year": 2022,
+    "media_type": "TV Series"
   },
   {
     "title": "SpongeBob SquarePants",
@@ -1086,41 +946,254 @@
     "studios": [
       {
         "name": "Nickelodeon Animation Studio",
-        "role": "Production"
+        "role": "Production",
+        "source": "https://en.wikipedia.org/wiki/SpongeBob_SquarePants"
       }
     ]
   },
   {
-    "title": "Crash Bandicoot",
-    "year": 1996,
+    "title": "Spy x Family",
+    "year": 2022,
+    "media_type": "Anime"
+  },
+  {
+    "title": "Stranger Than Heaven",
+    "year": 2027,
     "media_type": "Video Game",
     "studios": [
       {
-        "name": "Naughty Dog",
-        "role": "Developer"
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer",
+        "source": "https://www.videogameschronicle.com/news/stranger-than-heaven-presentation-reveals-cast-and-story-details-for-ryu-ga-gotoku-studios-next-game/"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher",
+        "source": "https://www.videogameschronicle.com/news/stranger-than-heaven-presentation-reveals-cast-and-story-details-for-ryu-ga-gotoku-studios-next-game/"
       }
     ]
   },
   {
-    "title": "Portal 2",
-    "year": 2011,
+    "title": "The End of Evangelion",
+    "year": 1997,
+    "media_type": "Movie",
+    "franchise": "Evangelion",
+    "parent_work": {
+      "title": "Neon Genesis Evangelion",
+      "year": 1995
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "The Last of Us",
+    "year": 2013,
     "media_type": "Video Game",
+    "franchise": "The Last of Us"
+  },
+  {
+    "title": "The Last of Us Part II",
+    "year": 2020,
+    "media_type": "Video Game",
+    "franchise": "The Last of Us",
+    "parent_work": {
+      "title": "The Last of Us",
+      "year": 2013
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "The Legend of Korra",
+    "year": 2012,
+    "media_type": "TV Series",
+    "franchise": "Avatar",
+    "parent_work": {
+      "title": "Avatar: The Last Airbender",
+      "year": 2005
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Warhammer 40,000: Space Marine 2",
+    "year": 2024,
+    "media_type": "Video Game"
+  },
+  {
+    "title": "Yakuza 0",
+    "year": 2015,
+    "media_type": "Video Game",
+    "franchise": "Yakuza",
     "studios": [
       {
-        "name": "Valve",
-        "role": "Developer"
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Yakuza_0"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Yakuza_0"
+      }
+    ],
+    "parent_work": {
+      "title": "Yakuza Kiwami",
+      "year": 2016
+    },
+    "relationship_type": "Prequel"
+  },
+  {
+    "title": "Yakuza 3",
+    "year": 2009,
+    "media_type": "Video Game",
+    "franchise": "Yakuza",
+    "studios": [
+      {
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Yakuza_3"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Yakuza_3"
+      }
+    ],
+    "parent_work": {
+      "title": "Yakuza Kiwami 2",
+      "year": 2017
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Yakuza 4",
+    "year": 2010,
+    "media_type": "Video Game",
+    "franchise": "Yakuza",
+    "studios": [
+      {
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Yakuza_4"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Yakuza_4"
+      }
+    ],
+    "parent_work": {
+      "title": "Yakuza 3",
+      "year": 2009
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Yakuza 5",
+    "year": 2012,
+    "media_type": "Video Game",
+    "franchise": "Yakuza",
+    "studios": [
+      {
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Yakuza_5"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Yakuza_5"
+      }
+    ],
+    "parent_work": {
+      "title": "Yakuza 4",
+      "year": 2010
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Yakuza 6: The Song of Life",
+    "year": 2016,
+    "media_type": "Video Game",
+    "franchise": "Yakuza",
+    "studios": [
+      {
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Yakuza_6:_The_Song_of_Life"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Yakuza_6:_The_Song_of_Life"
+      }
+    ],
+    "parent_work": {
+      "title": "Yakuza 5",
+      "year": 2012
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Yakuza Kiwami",
+    "year": 2016,
+    "media_type": "Video Game",
+    "franchise": "Yakuza",
+    "studios": [
+      {
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Yakuza_Kiwami"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Yakuza_Kiwami"
       }
     ]
   },
   {
-    "title": "Spider-Man 2: The Video Game",
-    "year": 2004,
+    "title": "Yakuza Kiwami 2",
+    "year": 2017,
     "media_type": "Video Game",
+    "franchise": "Yakuza",
     "studios": [
       {
-        "name": "Treyarch",
-        "role": "Developer"
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Yakuza_Kiwami_2"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Yakuza_Kiwami_2"
       }
-    ]
+    ],
+    "parent_work": {
+      "title": "Yakuza Kiwami",
+      "year": 2016
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Yakuza: Like a Dragon",
+    "year": 2020,
+    "media_type": "Video Game",
+    "franchise": "Yakuza",
+    "studios": [
+      {
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer",
+        "source": "https://en.wikipedia.org/wiki/Yakuza:_Like_a_Dragon"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher",
+        "source": "https://en.wikipedia.org/wiki/Yakuza:_Like_a_Dragon"
+      }
+    ],
+    "parent_work": {
+      "title": "Yakuza 6: The Song of Life",
+      "year": 2016
+    },
+    "relationship_type": "Sequel"
   }
 ]

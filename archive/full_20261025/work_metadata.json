@@ -1,0 +1,1483 @@
+[
+  {
+    "title": "The Last of Us",
+    "year": 2013,
+    "franchise": "The Last of Us",
+    "studios": [
+      {
+        "name": "Naughty Dog",
+        "role": "Developer"
+      },
+      {
+        "name": "Sony Interactive Entertainment",
+        "role": "Publisher"
+      }
+    ]
+  },
+  {
+    "title": "The Last of Us Part II",
+    "year": 2020,
+    "franchise": "The Last of Us",
+    "studios": [
+      {
+        "name": "Naughty Dog",
+        "role": "Developer"
+      },
+      {
+        "name": "Sony Interactive Entertainment",
+        "role": "Publisher"
+      }
+    ],
+    "parent_work": {
+      "title": "The Last of Us",
+      "year": 2013
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Persona 3",
+    "year": 2006,
+    "franchise": "Persona",
+    "studios": [
+      {
+        "name": "Atlus",
+        "role": "Developer"
+      },
+      {
+        "name": "Atlus",
+        "role": "Publisher"
+      }
+    ]
+  },
+  {
+    "title": "Persona 3 Reload",
+    "year": 2024,
+    "franchise": "Persona",
+    "studios": [
+      {
+        "name": "Atlus",
+        "role": "Developer"
+      },
+      {
+        "name": "Atlus",
+        "role": "Publisher"
+      }
+    ],
+    "parent_work": {
+      "title": "Persona 3",
+      "year": 2006
+    },
+    "relationship_type": "Remake"
+  },
+  {
+    "title": "Persona 4 Golden",
+    "year": 2012,
+    "franchise": "Persona",
+    "studios": [
+      {
+        "name": "Atlus",
+        "role": "Developer"
+      },
+      {
+        "name": "Atlus",
+        "role": "Publisher"
+      }
+    ]
+  },
+  {
+    "title": "Persona 5 Royal",
+    "year": 2019,
+    "franchise": "Persona",
+    "studios": [
+      {
+        "name": "Atlus",
+        "role": "Developer"
+      },
+      {
+        "name": "Atlus",
+        "role": "Publisher"
+      }
+    ]
+  },
+  {
+    "title": "Marvel's Spider-Man",
+    "year": 2018,
+    "studios": [
+      {
+        "name": "Insomniac Games",
+        "role": "Developer"
+      },
+      {
+        "name": "Sony Interactive Entertainment",
+        "role": "Publisher"
+      }
+    ]
+  },
+  {
+    "title": "Uncharted 4: A Thief's End",
+    "year": 2016,
+    "studios": [
+      {
+        "name": "Naughty Dog",
+        "role": "Developer"
+      },
+      {
+        "name": "Sony Interactive Entertainment",
+        "role": "Publisher"
+      }
+    ]
+  },
+  {
+    "title": "Metal Gear Solid",
+    "year": 1998,
+    "studios": [
+      {
+        "name": "Konami Computer Entertainment Japan",
+        "role": "Developer"
+      },
+      {
+        "name": "Konami",
+        "role": "Publisher"
+      }
+    ]
+  },
+  {
+    "title": "Danganronpa: Trigger Happy Havoc",
+    "year": 2010,
+    "franchise": "Danganronpa",
+    "studios": [
+      {
+        "name": "Spike Chunsoft",
+        "role": "Developer"
+      },
+      {
+        "name": "Spike Chunsoft",
+        "role": "Publisher"
+      }
+    ]
+  },
+  {
+    "title": "Danganronpa 2: Goodbye Despair",
+    "year": 2012,
+    "franchise": "Danganronpa",
+    "studios": [
+      {
+        "name": "Spike Chunsoft",
+        "role": "Developer"
+      },
+      {
+        "name": "Spike Chunsoft",
+        "role": "Publisher"
+      }
+    ],
+    "parent_work": {
+      "title": "Danganronpa: Trigger Happy Havoc",
+      "year": 2010
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Danganronpa 3",
+    "year": 2016,
+    "franchise": "Danganronpa",
+    "studios": [
+      {
+        "name": "Lerche",
+        "role": "Animation Studio"
+      }
+    ],
+    "parent_work": {
+      "title": "Danganronpa 2: Goodbye Despair",
+      "year": 2012
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Bleach",
+    "year": 2004,
+    "studios": [
+      {
+        "name": "Studio Pierrot",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Attack on Titan",
+    "year": 2013,
+    "studios": [
+      {
+        "name": "Wit Studio",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Cowboy Bebop",
+    "year": 1998,
+    "studios": [
+      {
+        "name": "Sunrise",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Jujutsu Kaisen",
+    "year": 2020,
+    "studios": [
+      {
+        "name": "MAPPA",
+        "role": "Animation Studio"
+      }
+    ],
+    "franchise": "Jujutsu Kaisen"
+  },
+  {
+    "title": "Demon Slayer",
+    "year": 2019,
+    "studios": [
+      {
+        "name": "ufotable",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Mob Psycho 100",
+    "year": 2016,
+    "studios": [
+      {
+        "name": "Bones",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Death Note",
+    "year": 2006,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Steins;Gate",
+    "year": 2011,
+    "studios": [
+      {
+        "name": "White Fox",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Persona 4 the Animation",
+    "year": 2011,
+    "franchise": "Persona",
+    "studios": [
+      {
+        "name": "AIC A.S.T.A.",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Persona 5 the Animation",
+    "year": 2018,
+    "franchise": "Persona",
+    "studios": [
+      {
+        "name": "CloverWorks",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Danganronpa: The Animation",
+    "year": 2013,
+    "franchise": "Danganronpa",
+    "studios": [
+      {
+        "name": "Lerche",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Danganronpa V3: Killing Harmony",
+    "year": 2017,
+    "franchise": "Danganronpa",
+    "studios": [
+      {
+        "name": "Spike Chunsoft",
+        "role": "Developer"
+      },
+      {
+        "name": "Spike Chunsoft",
+        "role": "Publisher"
+      }
+    ],
+    "parent_work": {
+      "title": "Danganronpa 2: Goodbye Despair",
+      "year": 2012
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Danganronpa: Ultra Despair Girls",
+    "year": 2015,
+    "franchise": "Danganronpa",
+    "studios": [
+      {
+        "name": "Spike Chunsoft",
+        "role": "Developer"
+      },
+      {
+        "name": "Spike Chunsoft",
+        "role": "Publisher"
+      }
+    ],
+    "parent_work": {
+      "title": "Danganronpa: Trigger Happy Havoc",
+      "year": 2010
+    },
+    "relationship_type": "Side Story"
+  },
+  {
+    "title": "Dandadan",
+    "year": 2024,
+    "studios": [
+      {
+        "name": "Science SARU",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "JoJo's Bizarre Adventure: Stardust Crusaders",
+    "year": 2014,
+    "studios": [
+      {
+        "name": "David Production",
+        "role": "Animation Studio"
+      }
+    ],
+    "franchise": "JoJo's Bizarre Adventure"
+  },
+  {
+    "title": "Frieren: Beyond Journey's End",
+    "year": 2023,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Delicious in Dungeon",
+    "year": 2024,
+    "studios": [
+      {
+        "name": "Studio Trigger",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Gurren Lagann",
+    "year": 2007,
+    "studios": [
+      {
+        "name": "Gainax",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Chainsaw Man",
+    "year": 2022,
+    "studios": [
+      {
+        "name": "MAPPA",
+        "role": "Animation Studio"
+      }
+    ],
+    "franchise": "Chainsaw Man"
+  },
+  {
+    "title": "Cyberpunk: Edgerunners",
+    "year": 2022,
+    "franchise": "Cyberpunk",
+    "studios": [
+      {
+        "name": "Studio Trigger",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Cyberpunk 2077",
+    "year": 2020,
+    "franchise": "Cyberpunk",
+    "studios": [
+      {
+        "name": "CD Projekt Red",
+        "role": "Developer"
+      },
+      {
+        "name": "CD Projekt",
+        "role": "Publisher"
+      }
+    ]
+  },
+  {
+    "title": "Red Dead Redemption 2",
+    "year": 2018,
+    "studios": [
+      {
+        "name": "Rockstar Games",
+        "role": "Developer"
+      },
+      {
+        "name": "Rockstar Games",
+        "role": "Publisher"
+      }
+    ]
+  },
+  {
+    "title": "Yakuza: Like a Dragon",
+    "year": 2020,
+    "studios": [
+      {
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher"
+      }
+    ],
+    "franchise": "Yakuza"
+  },
+  {
+    "title": "X-Men '97",
+    "year": 2024,
+    "studios": [
+      {
+        "name": "Marvel Studios Animation",
+        "role": "Production"
+      },
+      {
+        "name": "Studio Mir",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Marvel Rivals",
+    "year": 2024,
+    "studios": [
+      {
+        "name": "NetEase Games",
+        "role": "Developer"
+      },
+      {
+        "name": "NetEase Games",
+        "role": "Publisher"
+      }
+    ]
+  },
+  {
+    "title": "Hunter x Hunter",
+    "year": 2011,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Monster",
+    "year": 2004,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Hellsing Ultimate",
+    "year": 2006,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Overlord",
+    "year": 2015,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Orb: On the Movements of the Earth",
+    "year": 2024,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Parasyte -the maxim-",
+    "year": 2014,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "The Tatami Galaxy",
+    "year": 2010,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Perfect Blue",
+    "year": 1997,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Paprika",
+    "year": 2006,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Trigun",
+    "year": 1998,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "One-Punch Man",
+    "year": 2015,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Sonny Boy",
+    "year": 2021,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Redline",
+    "year": 2009,
+    "studios": [
+      {
+        "name": "Madhouse",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Kill la Kill",
+    "year": 2013,
+    "studios": [
+      {
+        "name": "Studio Trigger",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Neon Genesis Evangelion",
+    "year": 1995,
+    "studios": [
+      {
+        "name": "Gainax",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Hell's Paradise",
+    "year": 2023,
+    "studios": [
+      {
+        "name": "MAPPA",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Vinland Saga",
+    "year": 2019,
+    "studios": [
+      {
+        "name": "Wit Studio",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Vinland Saga Season 2",
+    "year": 2023,
+    "studios": [
+      {
+        "name": "MAPPA",
+        "role": "Animation Studio"
+      }
+    ],
+    "parent_work": {
+      "title": "Vinland Saga",
+      "year": 2019
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Attack on Titan: The Final Season",
+    "year": 2020,
+    "studios": [
+      {
+        "name": "MAPPA",
+        "role": "Animation Studio"
+      }
+    ],
+    "parent_work": {
+      "title": "Attack on Titan",
+      "year": 2013
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Spy x Family",
+    "year": 2022,
+    "studios": [
+      {
+        "name": "Wit Studio",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Fullmetal Alchemist",
+    "year": 2003,
+    "studios": [
+      {
+        "name": "Bones",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "year": 2009,
+    "studios": [
+      {
+        "name": "Bones",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Soul Eater",
+    "year": 2008,
+    "studios": [
+      {
+        "name": "Bones",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "My Hero Academia",
+    "year": 2016,
+    "studios": [
+      {
+        "name": "Bones",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Space Dandy",
+    "year": 2014,
+    "studios": [
+      {
+        "name": "Bones",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Nausicaa of the Valley of the Wind",
+    "year": 1984,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Kiki's Delivery Service",
+    "year": 1989,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Ponyo",
+    "year": 2008,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "The Boy and the Heron",
+    "year": 2023,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "The Wind Rises",
+    "year": 2013,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Spirited Away",
+    "year": 2001,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Porco Rosso",
+    "year": 1992,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "My Neighbor Totoro",
+    "year": 1988,
+    "studios": [
+      {
+        "name": "Studio Ghibli",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Devilman Crybaby",
+    "year": 2018,
+    "studios": [
+      {
+        "name": "Science SARU",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Violet Evergarden",
+    "year": 2018,
+    "media_type": "Anime",
+    "studios": [
+      {
+        "name": "Kyoto Animation",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "K-On!",
+    "year": 2009,
+    "media_type": "Anime",
+    "studios": [
+      {
+        "name": "Kyoto Animation",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Nichijou",
+    "year": 2011,
+    "media_type": "Anime",
+    "studios": [
+      {
+        "name": "Kyoto Animation",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "A Silent Voice",
+    "year": 2016,
+    "media_type": "Movie",
+    "studios": [
+      {
+        "name": "Kyoto Animation",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Invincible",
+    "year": 2021,
+    "media_type": "TV Series",
+    "studios": [
+      {
+        "name": "Skybound Entertainment",
+        "role": "Production"
+      },
+      {
+        "name": "Amazon Studios",
+        "role": "Distributor"
+      }
+    ]
+  },
+  {
+    "title": "The Spectacular Spider-Man",
+    "year": 2008,
+    "media_type": "TV Series",
+    "studios": [
+      {
+        "name": "Sony Pictures Television",
+        "role": "Production"
+      }
+    ]
+  },
+  {
+    "title": "Metal Gear Solid 3: Snake Eater",
+    "year": 2004,
+    "media_type": "Video Game",
+    "studios": [
+      {
+        "name": "Konami",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "title": "Superman: The Animated Series",
+    "year": 1996,
+    "media_type": "TV Series",
+    "studios": [
+      {
+        "name": "Warner Bros. Animation",
+        "role": "Production"
+      }
+    ]
+  },
+  {
+    "title": "SpongeBob SquarePants",
+    "year": 1999,
+    "media_type": "TV Series",
+    "studios": [
+      {
+        "name": "Nickelodeon Animation Studio",
+        "role": "Production"
+      }
+    ]
+  },
+  {
+    "title": "Crash Bandicoot",
+    "year": 1996,
+    "media_type": "Video Game",
+    "studios": [
+      {
+        "name": "Naughty Dog",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "title": "Portal 2",
+    "year": 2011,
+    "media_type": "Video Game",
+    "studios": [
+      {
+        "name": "Valve",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "title": "Spider-Man",
+    "year": 2002,
+    "media_type": "Movie",
+    "studios": [
+      {
+        "name": "Sony Pictures",
+        "role": "Distributor"
+      }
+    ]
+  },
+  {
+    "title": "The Walking Dead",
+    "year": 2010,
+    "media_type": "TV Series",
+    "studios": [
+      {
+        "name": "AMC",
+        "role": "Distributor"
+      }
+    ]
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "media_type": "Movie",
+    "studios": [
+      {
+        "name": "Columbia Pictures",
+        "role": "Distributor"
+      }
+    ]
+  },
+  {
+    "title": "JoJo's Bizarre Adventure",
+    "year": 2012,
+    "franchise": "JoJo's Bizarre Adventure",
+    "studios": [
+      {
+        "name": "David Production",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
+    "year": 2016,
+    "franchise": "JoJo's Bizarre Adventure",
+    "studios": [
+      {
+        "name": "David Production",
+        "role": "Animation Studio"
+      }
+    ],
+    "parent_work": {
+      "title": "JoJo's Bizarre Adventure: Stardust Crusaders",
+      "year": 2014
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "JoJo's Bizarre Adventure: Golden Wind",
+    "year": 2018,
+    "franchise": "JoJo's Bizarre Adventure",
+    "studios": [
+      {
+        "name": "David Production",
+        "role": "Animation Studio"
+      }
+    ],
+    "parent_work": {
+      "title": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
+      "year": 2016
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "JoJo's Bizarre Adventure: Stone Ocean",
+    "year": 2021,
+    "franchise": "JoJo's Bizarre Adventure",
+    "studios": [
+      {
+        "name": "David Production",
+        "role": "Animation Studio"
+      }
+    ],
+    "parent_work": {
+      "title": "JoJo's Bizarre Adventure: Golden Wind",
+      "year": 2018
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Jujutsu Kaisen 0",
+    "year": 2021,
+    "franchise": "Jujutsu Kaisen",
+    "studios": [
+      {
+        "name": "MAPPA",
+        "role": "Animation Studio"
+      }
+    ],
+    "parent_work": {
+      "title": "Jujutsu Kaisen",
+      "year": 2020
+    },
+    "relationship_type": "Prequel"
+  },
+  {
+    "title": "Jujutsu Kaisen Season 2",
+    "year": 2023,
+    "franchise": "Jujutsu Kaisen",
+    "studios": [
+      {
+        "name": "MAPPA",
+        "role": "Animation Studio"
+      }
+    ],
+    "parent_work": {
+      "title": "Jujutsu Kaisen",
+      "year": 2020
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Apex Legends",
+    "year": 2019,
+    "studios": [
+      {
+        "name": "Respawn Entertainment",
+        "role": "Developer"
+      },
+      {
+        "name": "Electronic Arts",
+        "role": "Publisher"
+      }
+    ]
+  },
+  {
+    "title": "Yakuza 0",
+    "year": 2015,
+    "franchise": "Yakuza",
+    "studios": [
+      {
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher"
+      }
+    ]
+  },
+  {
+    "title": "Yakuza Kiwami",
+    "year": 2016,
+    "franchise": "Yakuza",
+    "studios": [
+      {
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher"
+      }
+    ],
+    "parent_work": {
+      "title": "Yakuza 0",
+      "year": 2015
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Yakuza Kiwami 2",
+    "year": 2017,
+    "franchise": "Yakuza",
+    "studios": [
+      {
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher"
+      }
+    ],
+    "parent_work": {
+      "title": "Yakuza Kiwami",
+      "year": 2016
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Yakuza 6: The Song of Life",
+    "year": 2016,
+    "franchise": "Yakuza",
+    "studios": [
+      {
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher"
+      }
+    ],
+    "parent_work": {
+      "title": "Yakuza Kiwami 2",
+      "year": 2017
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Like a Dragon: Infinite Wealth",
+    "year": 2024,
+    "franchise": "Yakuza",
+    "studios": [
+      {
+        "name": "Ryu Ga Gotoku Studio",
+        "role": "Developer"
+      },
+      {
+        "name": "Sega",
+        "role": "Publisher"
+      }
+    ],
+    "parent_work": {
+      "title": "Yakuza: Like a Dragon",
+      "year": 2020
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Chainsaw Man - The Movie: Reze Arc",
+    "year": 2025,
+    "franchise": "Chainsaw Man",
+    "studios": [
+      {
+        "name": "MAPPA",
+        "role": "Animation Studio"
+      }
+    ],
+    "parent_work": {
+      "title": "Chainsaw Man",
+      "year": 2022
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Solo Leveling",
+    "year": 2024,
+    "studios": [
+      {
+        "name": "A-1 Pictures",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Star Wars: Episode I - The Phantom Menace",
+    "year": 1999,
+    "franchise": "Star Wars"
+  },
+  {
+    "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "year": 2005,
+    "franchise": "The Chronicles of Narnia"
+  },
+  {
+    "title": "Batman Begins",
+    "year": 2005,
+    "franchise": "Batman"
+  },
+  {
+    "title": "The Batman",
+    "year": 2022,
+    "franchise": "Batman"
+  },
+  {
+    "title": "Twilight",
+    "year": 2008,
+    "franchise": "Twilight"
+  },
+  {
+    "title": "Star Wars: The Clone Wars",
+    "year": 2008,
+    "franchise": "Star Wars",
+    "studios": [
+      {
+        "name": "Lucasfilm Animation",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Ratchet & Clank",
+    "year": 2002,
+    "studios": [
+      {
+        "name": "Insomniac Games",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "title": "Johnny Test",
+    "year": 2005
+  },
+  {
+    "title": "Batman: Arkham Origins",
+    "year": 2013,
+    "franchise": "Batman",
+    "studios": [
+      {
+        "name": "WB Games Montreal",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "title": "The Flash",
+    "year": 2014
+  },
+  {
+    "title": "Yu-Gi-Oh! Duel Monsters",
+    "year": 2000,
+    "studios": [
+      {
+        "name": "Studio Gallop",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "franchise": "Batman",
+    "parent_work": {
+      "title": "Batman Begins",
+      "year": 2005
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "The Dark Knight Rises",
+    "year": 2012,
+    "franchise": "Batman",
+    "parent_work": {
+      "title": "The Dark Knight",
+      "year": 2008
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "American Psycho",
+    "year": 2000
+  },
+  {
+    "title": "Spider-Man: Homecoming",
+    "year": 2017
+  },
+  {
+    "title": "Batman",
+    "year": 1989,
+    "franchise": "Batman"
+  },
+  {
+    "title": "Batman Returns",
+    "year": 1992,
+    "franchise": "Batman",
+    "parent_work": {
+      "title": "Batman",
+      "year": 1989
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Inception",
+    "year": 2010
+  },
+  {
+    "title": "Batman: Arkham Asylum",
+    "year": 2009,
+    "franchise": "Batman",
+    "studios": [
+      {
+        "name": "Rocksteady Studios",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "title": "Batman: Arkham City",
+    "year": 2011,
+    "franchise": "Batman",
+    "studios": [
+      {
+        "name": "Rocksteady Studios",
+        "role": "Developer"
+      }
+    ],
+    "parent_work": {
+      "title": "Batman: Arkham Asylum",
+      "year": 2009
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Batman: Arkham Knight",
+    "year": 2015,
+    "franchise": "Batman",
+    "studios": [
+      {
+        "name": "Rocksteady Studios",
+        "role": "Developer"
+      }
+    ],
+    "parent_work": {
+      "title": "Batman: Arkham City",
+      "year": 2011
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Batman: The Animated Series",
+    "year": 1992,
+    "franchise": "Batman",
+    "studios": [
+      {
+        "name": "Warner Bros. Animation",
+        "role": "Animation Studio"
+      }
+    ]
+  },
+  {
+    "title": "Star Wars",
+    "year": 1977,
+    "franchise": "Star Wars",
+    "studios": [
+      {
+        "name": "Lucasfilm",
+        "role": "Production Company"
+      }
+    ]
+  },
+  {
+    "title": "The Empire Strikes Back",
+    "year": 1980,
+    "franchise": "Star Wars",
+    "studios": [
+      {
+        "name": "Lucasfilm",
+        "role": "Production Company"
+      }
+    ],
+    "parent_work": {
+      "title": "Star Wars",
+      "year": 1977
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Return of the Jedi",
+    "year": 1983,
+    "franchise": "Star Wars",
+    "studios": [
+      {
+        "name": "Lucasfilm",
+        "role": "Production Company"
+      }
+    ],
+    "parent_work": {
+      "title": "The Empire Strikes Back",
+      "year": 1980
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Jujutsu Kaisen Season 3",
+    "year": 2026,
+    "franchise": "Jujutsu Kaisen",
+    "studios": [
+      {
+        "name": "MAPPA",
+        "role": "Animation Studio"
+      }
+    ],
+    "parent_work": {
+      "title": "Jujutsu Kaisen Season 2",
+      "year": 2023
+    },
+    "relationship_type": "Sequel"
+  },
+  {
+    "title": "Persona 4 Revival",
+    "year": 2027,
+    "franchise": "Persona",
+    "studios": [
+      {
+        "name": "Atlus",
+        "role": "Developer"
+      },
+      {
+        "name": "Atlus",
+        "role": "Publisher"
+      }
+    ],
+    "parent_work": {
+      "title": "Persona 4 Golden",
+      "year": 2012
+    },
+    "relationship_type": "Remake"
+  }
+]
